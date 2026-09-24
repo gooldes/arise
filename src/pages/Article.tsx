@@ -7,6 +7,7 @@ import { lightbox } from '../components/Lightbox'
 import { openTerm } from '../components/TermSheet'
 import { Toc } from '../components/Toc'
 import { articleBySlug, articlesIn, categoryById } from '../data'
+import { hydrateCalcs } from '../lib/calc'
 import { to } from '../lib/router'
 import { navType, replaceHash } from '../lib/nav'
 import { checklists, family, favorites, markRecent, readPositions, toggleFavorite } from '../lib/user'
@@ -74,6 +75,9 @@ export function ArticlePage({ slug, list = false }: { slug: string; list?: boole
       box.closest('li, tr')?.classList.toggle('is-checked', box.checked)
     })
   }, [slug, checked])
+
+  // Калькуляторы ```calc — пересчёт при вводе
+  useEffect(() => (proseRef.current ? hydrateCalcs(proseRef.current) : undefined), [slug])
 
   useLayoutEffect(() => {
     const root = proseRef.current

@@ -1870,3 +1870,91 @@ mark {
   color: var(--text-2);
   font-size: 0.92rem;
 }
+
+/* ---------- Калькуляторы в статьях ---------- */
+.prose fieldset.calc {
+  margin: 1.2em 0;
+  padding: 12px 14px 14px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: var(--surface);
+  box-shadow: var(--shadow);
+  min-width: 0;
+}
+.prose .calc__title {
+  padding: 0 6px;
+  font-weight: 700;
+  font-size: 0.98rem;
+}
+.prose .calc__inputs {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+  gap: 8px 10px;
+}
+.prose .calc__field {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  gap: 4px;
+  font-size: 0.82rem;
+  line-height: 1.25;
+  color: var(--text-2);
+}
+.prose .calc__field input,
+.prose .calc__field select {
+  width: 100%;
+  min-height: 42px;
+  padding: 6px 10px;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  background: var(--surface-2);
+  color: var(--text);
+  font: inherit;
+  font-size: 1.05rem;
+  font-variant-numeric: tabular-nums;
+}
+.prose .calc__field input:focus,
+.prose .calc__field select:focus {
+  outline: 2px solid var(--accent);
+  outline-offset: 1px;
+}
+.prose .calc__field .is-bad {
+  border-color: var(--danger);
+}
+.prose .calc__outputs {
+  margin-top: 12px;
+  border-top: 1px solid var(--border);
+  padding-top: 8px;
+}
+.prose .calc__row {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 12px;
+  padding: 5px 0;
+  font-size: 0.92rem;
+}
+.prose .calc__row output {
+  font-weight: 700;
+  font-size: 1.1rem;
+  color: var(--accent);
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+.prose .calc__warn {
+  margin-top: 8px;
+  padding: 8px 10px;
+  border-radius: 10px;
+  background: var(--danger-bg);
+  color: var(--danger-strong);
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+.prose .calc__warn p {
+  margin: 2px 0;
+}
+.prose .calc__note {
+  margin: 8px 0 0;
+  font-size: 0.82rem;
+  color: var(--text-2);
+}

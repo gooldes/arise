@@ -3,6 +3,7 @@ import path from 'node:path'
 import matter from 'gray-matter'
 import { Marked } from 'marked'
 import type { Plugin } from 'vite'
+import { formatNumber, parseCalc, runCalc } from '../src/lib/calc.ts'
 import { normalize, processTerm, stem, tokenize } from '../src/lib/ru.ts'
 import type { Article, Book, Category, Term, Urgency } from '../src/types.ts'
 
@@ -106,6 +107,38 @@ function parseFrontmatter(src: string, rel: string, problems: string[]) {
 // ```
 // Колонки: что | единица | на взрослого | на ребёнка | [на всю семью сверху].
 // Взрослый/ребёнок умножаются на days (если указано); последняя колонка — фиксированно на семью.
+
+// ---------- Калькуляторы ```calc (синтаксис — src/lib/calc.ts) ----------
+
+const escAttr = (s: string) => s.replace(/&/g, '&amp;').replace(/"/g, '&quot;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
+const escHtml = (s: string) => s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
+
+function renderCalcs(md: string, rel: string, problems: string[]): string {
+  return md.replace(/^```calc([^\n]*)\n([\s\S]*?)^```[ \t]*$/gm, (_m, args: string, body: string) => {
+    const errors: string[] = []
+    const spec = parseCalc(args, body, errors)
+    errors.forEach((e) => problems.push(`${rel}: ${e}`))
+    const defaults = Object.fromEntries(spec.inputs.map((i) => [i.id, i.value]))
+    const { results, warnings } = runCalc(spec, defaults)
+    const inputs = spec.inputs
+      .map((i) => {
+        const control = i.options
+          ? `<select data-v="${i.id}">${i.options
+              .map((o) => `<option value="${o.value}"${o.value === i.value ? ' selected' : ''}>${escHtml(o.label)}</option>`)
+              .join('')}</select>`
+          : `<input type="text" inputmode="decimal" autocomplete="off" data-v="${i.id}" value="${String(i.value).replace('.', ',')}">`
+        return `<label class="calc__field"><span>${escHtml(i.label)}</span>${control}</label>`
+      })
+      .join('')
+    const outputs = spec.outputs
+      .map((o) => `<div class="calc__row"><span>${escHtml(o.label)}</span><output data-o="${o.id}">${formatNumber(results[o.id])}</output></div>`)
+      .join('')
+    const warn = `<div class="calc__warn"${warnings.length ? '' : ' hidden'}>${warnings.map((w) => `<p>⚠️ ${escHtml(w)}</p>`).join('')}</div>`
+    const notes = spec.notes.map((n) => `<p class="calc__note">${escHtml(n)}</p>`).join('')
+    // одной строкой без пустых строк — marked оставит это как HTML-блок
+    return `<fieldset class="calc" data-spec="${escAttr(JSON.stringify(spec))}"><legend class="calc__title">🧮 ${escHtml(spec.title)}</legend><div class="calc__inputs">${inputs}</div><div class="calc__outputs">${outputs}</div>${warn}${notes}</fieldset>\n`
+  })
+}
 
 const fmtNum = (n: number) =>
   Number.isInteger(n) ? String(n) : n.toLocaleString('ru-RU', { maximumFractionDigits: n < 10 ? 2 : 1 })
@@ -229,7 +262,7 @@ function loadGlossary(problems: string[]): TermMatcher {
   return { terms, formToId, stems, regex }
 }
 
-const SKIP_TAGS = /^(a|h[1-6]|code|pre|button|mark|th)$/
+const SKIP_TAGS = /^(a|h[1-6]|code|pre|button|mark|th|fieldset)$/
 
 /** Размечает первое вхождение каждого термина в тексте статьи (кроме ссылок, заголовков, кода). */
 function annotateTerms(html: string, matcher: TermMatcher, used: Set<string>): string {
@@ -389,7 +422,7 @@ function loadContent() {
       },
     })
 
-    let html = marked.parse(renderSupplies(content, rel, problems), { async: false })
+    let html = marked.parse(renderCalcs(renderSupplies(content, rel, problems), rel, problems), { async: false })
     // ![alt](file.jpg "Автор, лицензия") → <figure> с подписью
     html = html.replace(/<p>(<img [^>]*?title="([^"]*)"[^>]*>)<\/p>/g, (_m, img: string, title: string) =>
       `<figure>${img.replace(/ title="[^"]*"/, '')}<figcaption>${title}</figcaption></figure>`,

@@ -185,7 +185,8 @@
       "культи"
     ],
     "definition": "Оставшаяся часть конечности после её отрыва или ампутации.",
-    "article": "amputation"
+    "article": "amputation",
+    "exact": true
   },
   {
     "term": "Ампутация",
