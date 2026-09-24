@@ -1,0 +1,856 @@
+{
+  "nettle": {
+    "file": "File:Urtica dioica10 ies.jpg",
+    "credit": "Фото: Frank Vincentz, CC BY-SA 3.0, Wikimedia Commons",
+    "license": "CC BY-SA 3.0",
+    "artist": "Frank Vincentz",
+    "source": "https://commons.wikimedia.org/wiki/File:Urtica_dioica10_ies.jpg"
+  },
+  "dandelion": {
+    "file": "File:Taraxacum officinale 04.2026 (5).jpg",
+    "credit": "Фото: DidierFy, CC BY-SA 4.0, Wikimedia Commons",
+    "license": "CC BY-SA 4.0",
+    "artist": "DidierFy",
+    "source": "https://commons.wikimedia.org/wiki/File:Taraxacum_officinale_04.2026_(5).jpg"
+  },
+  "orache": {
+    "file": "File:Chenopodium album01.jpg",
+    "credit": "Фото: неизвестен, CC BY-SA 3.0, Wikimedia Commons",
+    "license": "CC BY-SA 3.0",
+    "artist": "неизвестен",
+    "source": "https://commons.wikimedia.org/wiki/File:Chenopodium_album01.jpg"
+  },
+  "water-hemlock": {
+    "file": "File:Cicuta virosa - Köhler–s Medizinal-Pflanzen-038 cropped.jpg",
+    "credit": "Фото: Franz Eugen Köhler, Public domain, Wikimedia Commons",
+    "license": "Public domain",
+    "artist": "Franz Eugen Köhler, Köhler's Medizinal-Pflanzen",
+    "source": "https://commons.wikimedia.org/wiki/File:Cicuta_virosa_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-038_cropped.jpg"
+  },
+  "sorrel": {
+    "file": "File:Rumex acetosa (1).jpg",
+    "credit": "Фото: Christian Hummert (Ixitixel), CC BY-SA 2.5, Wikimedia Commons",
+    "license": "CC BY-SA 2.5",
+    "artist": "Christian Hummert (Ixitixel)",
+    "source": "https://commons.wikimedia.org/wiki/File:Rumex_acetosa_(1).jpg"
+  },
+  "wood-sorrel-knotweed": {
+    "file": "File:Polygonum aviculare 4.JPG",
+    "credit": "Фото: Dalgial, CC BY-SA 3.0, Wikimedia Commons",
+    "license": "CC BY-SA 3.0",
+    "artist": "Dalgial",
+    "source": "https://commons.wikimedia.org/wiki/File:Polygonum_aviculare_4.JPG"
+  },
+  "porcini": {
+    "file": "File:(Gemeine Steinpilz) Boletus edulis.jpg",
+    "credit": "Фото: Holger Krisp, CC BY 3.0, Wikimedia Commons",
+    "license": "CC BY 3.0",
+    "artist": "Holger Krisp",
+    "source": "https://commons.wikimedia.org/wiki/File:(Gemeine_Steinpilz)_Boletus_edulis.jpg"
+  },
+  "plantain": {
+    "file": "File:Llanten02.jpg",
+    "credit": "Фото: Alepistoia, CC BY-SA 4.0, Wikimedia Commons",
+    "license": "CC BY-SA 4.0",
+    "artist": "Alepistoia",
+    "source": "https://commons.wikimedia.org/wiki/File:Llanten02.jpg"
+  },
+  "hemlock": {
+    "file": "File:Conium maculatum.jpg",
+    "credit": "Фото: неизвестен, Public domain, Wikimedia Commons",
+    "license": "Public domain",
+    "artist": "неизвестен",
+    "source": "https://commons.wikimedia.org/wiki/File:Conium_maculatum.jpg"
+  },
+  "birch-bolete": {
+    "file": "File:2007-10-13 Leccinum scabrum (Bull.) Gray 12300 crop.jpg",
+    "credit": "Фото: This image was created by user vesna maric (kalipso) at Mushroom Observer, a sou, CC BY-SA 3.0, Wikimedia Commons",
+    "license": "CC BY-SA 3.0",
+    "artist": "This image was created by user vesna maric (kalipso) at Mushroom Observer, a source for mycological images.You can contact this user here.",
+    "source": "https://commons.wikimedia.org/wiki/File:2007-10-13_Leccinum_scabrum_(Bull.)_Gray_12300_crop.jpg"
+  },
+  "buttercup": {
+    "file": "File:Ranunculus acris acris-Salzburg, Flachgau, Henndorf-bE-HdN-1649a.jpg",
+    "credit": "Фото: Michael Kurz, CC BY-SA 3.0 at, Wikimedia Commons",
+    "license": "CC BY-SA 3.0 at",
+    "artist": "Michael Kurz",
+    "source": "https://commons.wikimedia.org/wiki/File:Ranunculus_acris_acris-Salzburg,_Flachgau,_Henndorf-bE-HdN-1649a.jpg"
+  },
+  "rosehip": {
+    "file": "File:Rosa majalis fruit (11) (cropped).jpg",
+    "credit": "Фото: Jan Sørensen, CC BY 4.0, Wikimedia Commons",
+    "license": "CC BY 4.0",
+    "artist": "Jan Sørensen",
+    "source": "https://commons.wikimedia.org/wiki/File:Rosa_majalis_fruit_(11)_(cropped).jpg"
+  },
+  "nightshade": {
+    "file": "File:Solanum dulcamara (5386574212).jpg",
+    "credit": "Фото: David Eickhoff from Pearl City, Hawaii, USA, CC BY 2.0, Wikimedia Commons",
+    "license": "CC BY 2.0",
+    "artist": "David Eickhoff from Pearl City, Hawaii, USA",
+    "source": "https://commons.wikimedia.org/wiki/File:Solanum_dulcamara_(5386574212).jpg"
+  },
+  "hare": {
+    "file": "File:Заяц-беляк.jpg",
+    "credit": "Фото: NadezhdaKhaustova, CC BY-SA 4.0, Wikimedia Commons",
+    "license": "CC BY-SA 4.0",
+    "artist": "NadezhdaKhaustova",
+    "source": "https://commons.wikimedia.org/wiki/File:%D0%97%D0%B0%D1%8F%D1%86-%D0%B1%D0%B5%D0%BB%D1%8F%D0%BA.jpg"
+  },
+  "aspen-bolete": {
+    "file": "File:Leccinum aurantiacum.jpg",
+    "credit": "Фото: Hans Hillewaert, CC BY-SA 4.0, Wikimedia Commons",
+    "license": "CC BY-SA 4.0",
+    "artist": "Hans Hillewaert",
+    "source": "https://commons.wikimedia.org/wiki/File:Leccinum_aurantiacum.jpg"
+  },
+  "perch": {
+    "file": "File:Perca fluviatilis-female Siverskiy Donets River Ukraine.jpg",
+    "credit": "Фото: GeSHaFish, CC BY-SA 3.0, Wikimedia Commons",
+    "license": "CC BY-SA 3.0",
+    "artist": "GeSHaFish",
+    "source": "https://commons.wikimedia.org/wiki/File:Perca_fluviatilis-female_Siverskiy_Donets_River_Ukraine.jpg"
+  },
+  "lingonberry": {
+    "file": "File:Vaccinium vitis-idaea 20060824 003.jpg",
+    "credit": "Фото: Jonas Bergsten, Public domain, Wikimedia Commons",
+    "license": "Public domain",
+    "artist": "Jonas Bergsten",
+    "source": "https://commons.wikimedia.org/wiki/File:Vaccinium_vitis-idaea_20060824_003.jpg"
+  },
+  "burdock": {
+    "file": "File:ArctiumLappa1.jpg",
+    "credit": "Фото: Christian Fischer, CC BY-SA 3.0, Wikimedia Commons",
+    "license": "CC BY-SA 3.0",
+    "artist": "Christian Fischer",
+    "source": "https://commons.wikimedia.org/wiki/File:ArctiumLappa1.jpg"
+  },
+  "roach": {
+    "file": "File:Rutilus rutilus Prague Vltava 3.jpg",
+    "credit": "Фото: Karelj, Public domain, Wikimedia Commons",
+    "license": "Public domain",
+    "artist": "Karelj",
+    "source": "https://commons.wikimedia.org/wiki/File:Rutilus_rutilus_Prague_Vltava_3.jpg"
+  },
+  "cranberry": {
+    "file": "File:VacciniumOxycoccos.jpg",
+    "credit": "Фото: Christian Fischer, CC BY-SA 3.0, Wikimedia Commons",
+    "license": "CC BY-SA 3.0",
+    "artist": "Christian Fischer",
+    "source": "https://commons.wikimedia.org/wiki/File:VacciniumOxycoccos.jpg"
+  },
+  "suillus": {
+    "file": "File:Suillus luteus 2.jpg",
+    "credit": "Фото: Jerzy Opioła, CC BY-SA 3.0, Wikimedia Commons",
+    "license": "CC BY-SA 3.0",
+    "artist": "Jerzy Opioła",
+    "source": "https://commons.wikimedia.org/wiki/File:Suillus_luteus_2.jpg"
+  },
+  "cedar-pine": {
+    "file": "File:Ergaki, Siberian pine cone with seeds and foliage, Pinus sibirica, Sayan Mountains, Russia.jpg",
+    "credit": "Фото: Vyacheslav Argenberg, CC BY 4.0, Wikimedia Commons",
+    "license": "CC BY 4.0",
+    "artist": "Vyacheslav Argenberg",
+    "source": "https://commons.wikimedia.org/wiki/File:Ergaki,_Siberian_pine_cone_with_seeds_and_foliage,_Pinus_sibirica,_Sayan_Mountains,_Russia.jpg"
+  },
+  "bream": {
+    "file": "File:AbramisBramaCarpBream.JPG",
+    "credit": "Фото: Piet Spaans, CC BY 2.5, Wikimedia Commons",
+    "license": "CC BY 2.5",
+    "artist": "Piet Spaans",
+    "source": "https://commons.wikimedia.org/wiki/File:AbramisBramaCarpBream.JPG"
+  },
+  "crucian": {
+    "file": "File:Carassius gibelio 2008 G2.jpg",
+    "credit": "Фото: George Chernilevsky, CC BY-SA 3.0, Wikimedia Commons",
+    "license": "CC BY-SA 3.0",
+    "artist": "George Chernilevsky",
+    "source": "https://commons.wikimedia.org/wiki/File:Carassius_gibelio_2008_G2.jpg"
+  },
+  "acorns": {
+    "file": "File:Acorns of Quercus robur, Eichel der Stieleiche 06.JPG",
+    "credit": "Фото: böhringer friedrich, CC BY-SA 3.0 at, Wikimedia Commons",
+    "license": "CC BY-SA 3.0 at",
+    "artist": "böhringer friedrich",
+    "source": "https://commons.wikimedia.org/wiki/File:Acorns_of_Quercus_robur,_Eichel_der_Stieleiche_06.JPG"
+  },
+  "reed": {
+    "file": "File:Schwielowsee-Schilfrohrguertel-01.jpg",
+    "credit": "Фото: Botaurus stellaris, Public domain, Wikimedia Commons",
+    "license": "Public domain",
+    "artist": "Botaurus stellaris",
+    "source": "https://commons.wikimedia.org/wiki/File:Schwielowsee-Schilfrohrguertel-01.jpg"
+  },
+  "rowan": {
+    "file": "File:Rosales - Sorbus aucuparia - 7.jpg",
+    "credit": "Фото: Emőke Dénes, CC BY-SA 4.0, Wikimedia Commons",
+    "license": "CC BY-SA 4.0",
+    "artist": "Emőke Dénes",
+    "source": "https://commons.wikimedia.org/wiki/File:Rosales_-_Sorbus_aucuparia_-_7.jpg"
+  },
+  "carp": {
+    "file": "File:Карп.jpg",
+    "credit": "Фото: Роман АлексеевичЕ, CC0, Wikimedia Commons",
+    "license": "CC0",
+    "artist": "Роман АлексеевичЕ",
+    "source": "https://commons.wikimedia.org/wiki/File:%D0%9A%D0%B0%D1%80%D0%BF.jpg"
+  },
+  "fireweed": {
+    "file": "File:Chamerion angustifolium 2012 G2.jpg",
+    "credit": "Фото: George Chernilevsky, Public domain, Wikimedia Commons",
+    "license": "Public domain",
+    "artist": "George Chernilevsky",
+    "source": "https://commons.wikimedia.org/wiki/File:Chamerion_angustifolium_2012_G2.jpg"
+  },
+  "blueberry": {
+    "file": "File:Ergaki, Blueberry fruit and leaves, Sayan Mountains, Russia.jpg",
+    "credit": "Фото: Vyacheslav Argenberg, CC BY 4.0, Wikimedia Commons",
+    "license": "CC BY 4.0",
+    "artist": "Vyacheslav Argenberg",
+    "source": "https://commons.wikimedia.org/wiki/File:Ergaki,_Blueberry_fruit_and_leaves,_Sayan_Mountains,_Russia.jpg"
+  },
+  "plantain-edible": {
+    "file": "File:Llanten02.jpg",
+    "credit": "Фото: Alepistoia, CC BY-SA 4.0, Wikimedia Commons",
+    "license": "CC BY-SA 4.0",
+    "artist": "Alepistoia",
+    "source": "https://commons.wikimedia.org/wiki/File:Llanten02.jpg"
+  },
+  "clover": {
+    "file": "File:Trifolium pratense - Keila2.jpg",
+    "credit": "Фото: Ivar Leidus, CC BY-SA 4.0, Wikimedia Commons",
+    "license": "CC BY-SA 4.0",
+    "artist": "Ivar Leidus",
+    "source": "https://commons.wikimedia.org/wiki/File:Trifolium_pratense_-_Keila2.jpg"
+  },
+  "xerocomus": {
+    "file": "File:Boletus subtomentosus.jpg",
+    "credit": "Фото: Daniel Ullrich, Threedots, CC BY-SA 3.0, Wikimedia Commons",
+    "license": "CC BY-SA 3.0",
+    "artist": "Daniel Ullrich, Threedots",
+    "source": "https://commons.wikimedia.org/wiki/File:Boletus_subtomentosus.jpg"
+  },
+  "chickweed": {
+    "file": "File:Stellaria media Common Chickweed ჟუნჟრუკი.JPG",
+    "credit": "Фото: Lazaregagnidze, CC BY-SA 4.0, Wikimedia Commons",
+    "license": "CC BY-SA 4.0",
+    "artist": "Lazaregagnidze",
+    "source": "https://commons.wikimedia.org/wiki/File:Stellaria_media_Common_Chickweed_%E1%83%9F%E1%83%A3%E1%83%9C%E1%83%9F%E1%83%A0%E1%83%A3%E1%83%99%E1%83%98.JPG"
+  },
+  "chanterelle": {
+    "file": "File:2007-07-14 Cantharellus cibarius.jpg",
+    "credit": "Фото: Andreas Kunze, CC BY-SA 3.0, Wikimedia Commons",
+    "license": "CC BY-SA 3.0",
+    "artist": "Andreas Kunze",
+    "source": "https://commons.wikimedia.org/wiki/File:2007-07-14_Cantharellus_cibarius.jpg"
+  },
+  "raspberry": {
+    "file": "File:Raspberries (Rubus Idaeus).jpg",
+    "credit": "Фото: Juhanson, CC BY-SA 3.0, Wikimedia Commons",
+    "license": "CC BY-SA 3.0",
+    "artist": "Juhanson",
+    "source": "https://commons.wikimedia.org/wiki/File:Raspberries_(Rubus_Idaeus).jpg"
+  },
+  "ramsons": {
+    "file": "File:Flowering Wild Garlic.JPG",
+    "credit": "Фото: Rosser (talk), Public domain, Wikimedia Commons",
+    "license": "Public domain",
+    "artist": "Rosser (talk)",
+    "source": "https://commons.wikimedia.org/wiki/File:Flowering_Wild_Garlic.JPG"
+  },
+  "strawberry-wild": {
+    "file": "File:Земляника лесная KR 01.jpg",
+    "credit": "Фото: Лобачев Владимир, CC BY-SA 4.0, Wikimedia Commons",
+    "license": "CC BY-SA 4.0",
+    "artist": "Лобачев Владимир",
+    "source": "https://commons.wikimedia.org/wiki/File:%D0%97%D0%B5%D0%BC%D0%BB%D1%8F%D0%BD%D0%B8%D0%BA%D0%B0_%D0%BB%D0%B5%D1%81%D0%BD%D0%B0%D1%8F_KR_01.jpg"
+  },
+  "shepherds-purse": {
+    "file": "File:Capsella bursa-pastoris.JPG",
+    "credit": "Фото: Eike Wulfmeyer, CC BY-SA 2.5, Wikimedia Commons",
+    "license": "CC BY-SA 2.5",
+    "artist": "Eike Wulfmeyer",
+    "source": "https://commons.wikimedia.org/wiki/File:Capsella_bursa-pastoris.JPG"
+  },
+  "zander": {
+    "file": "File:Hal - Sander lucioperca - 1.jpg",
+    "credit": "Фото: Emőke Dénes, CC BY-SA 4.0, Wikimedia Commons",
+    "license": "CC BY-SA 4.0",
+    "artist": "Emőke Dénes",
+    "source": "https://commons.wikimedia.org/wiki/File:Hal_-_Sander_lucioperca_-_1.jpg"
+  },
+  "lungwort": {
+    "file": "File:Suffolk Lungwort 492314173.jpg",
+    "credit": "Фото: Miika Silfverberg, CC BY-SA 2.0, Wikimedia Commons",
+    "license": "CC BY-SA 2.0",
+    "artist": "Miika Silfverberg",
+    "source": "https://commons.wikimedia.org/wiki/File:Suffolk_Lungwort_492314173.jpg"
+  },
+  "ruffe": {
+    "file": "File:Gymnocephalus cernuus Hungary.jpg",
+    "credit": "Фото: Harka, Akos, CC BY 3.0, Wikimedia Commons",
+    "license": "CC BY 3.0",
+    "artist": "Harka, Akos",
+    "source": "https://commons.wikimedia.org/wiki/File:Gymnocephalus_cernuus_Hungary.jpg"
+  },
+  "linden": {
+    "file": "File:Tilia cordata flowers.jpg",
+    "credit": "Фото: Gmihail at Serbian Wikipedia, CC BY-SA 3.0 rs, Wikimedia Commons",
+    "license": "CC BY-SA 3.0 rs",
+    "artist": "Gmihail at Serbian Wikipedia",
+    "source": "https://commons.wikimedia.org/wiki/File:Tilia_cordata_flowers.jpg"
+  },
+  "cloudberry": {
+    "file": "File:Rubus chamaemorus ripe.jpg",
+    "credit": "Фото: неизвестен, CC BY-SA 3.0, Wikimedia Commons",
+    "license": "CC BY-SA 3.0",
+    "artist": "неизвестен",
+    "source": "https://commons.wikimedia.org/wiki/File:Rubus_chamaemorus_ripe.jpg"
+  },
+  "fools-parsley": {
+    "file": "File:Aethusa cynapium 002.JPG",
+    "credit": "Фото: H. Zell, CC BY-SA 3.0, Wikimedia Commons",
+    "license": "CC BY-SA 3.0",
+    "artist": "H. Zell",
+    "source": "https://commons.wikimedia.org/wiki/File:Aethusa_cynapium_002.JPG"
+  },
+  "birch-food": {
+    "file": "File:Betula Pendula at Stockholm University 2005-07-01.jpg",
+    "credit": "Фото: Jordgubbe, CC BY-SA 2.0, Wikimedia Commons",
+    "license": "CC BY-SA 2.0",
+    "artist": "Jordgubbe",
+    "source": "https://commons.wikimedia.org/wiki/File:Betula_Pendula_at_Stockholm_University_2005-07-01.jpg"
+  },
+  "pine-food": {
+    "file": "File:Scots Pine (Pinus sylvestris) - Kristiansand, Norway 2021-08-10.jpg",
+    "credit": "Фото: Ryan Hodnett, CC BY-SA 4.0, Wikimedia Commons",
+    "license": "CC BY-SA 4.0",
+    "artist": "Ryan Hodnett",
+    "source": "https://commons.wikimedia.org/wiki/File:Scots_Pine_(Pinus_sylvestris)_-_Kristiansand,_Norway_2021-08-10.jpg"
+  },
+  "yarrow": {
+    "file": "File:Achillea millefolium (yarrow).jpg",
+    "credit": "Фото: Dvortygirl, CC BY-SA 4.0, Wikimedia Commons",
+    "license": "CC BY-SA 4.0",
+    "artist": "Dvortygirl",
+    "source": "https://commons.wikimedia.org/wiki/File:Achillea_millefolium_(yarrow).jpg"
+  },
+  "chamomile": {
+    "file": "File:Matricaria recutita 001 cropped.jpg",
+    "credit": "Фото: Matricaria_recutita_001.JPG: H. Zell derivative work: Bff, CC BY-SA 3.0, Wikimedia Commons",
+    "license": "CC BY-SA 3.0",
+    "artist": "Matricaria_recutita_001.JPG: H. Zell derivative work: Bff",
+    "source": "https://commons.wikimedia.org/wiki/File:Matricaria_recutita_001_cropped.jpg"
+  },
+  "bracken": {
+    "file": "File:Adelaarsvaren planten Pteridium aquilinum.jpg",
+    "credit": "Фото: Rasbak, CC BY-SA 3.0, Wikimedia Commons",
+    "license": "CC BY-SA 3.0",
+    "artist": "Rasbak",
+    "source": "https://commons.wikimedia.org/wiki/File:Adelaarsvaren_planten_Pteridium_aquilinum.jpg"
+  },
+  "ide-chub": {
+    "file": "File:LeuciscusIdusWindeIde56cm 21-4-2009 16-46-58.JPG",
+    "credit": "Фото: Viridiflavus, CC BY-SA 3.0, Wikimedia Commons",
+    "license": "CC BY-SA 3.0",
+    "artist": "Viridiflavus",
+    "source": "https://commons.wikimedia.org/wiki/File:LeuciscusIdusWindeIde56cm_21-4-2009_16-46-58.JPG"
+  },
+  "grayling-trout": {
+    "file": "File:Thymallus thymallus Pénzes pér.jpg",
+    "credit": "Фото: Zsoldos Márton, CC BY-SA 3.0, Wikimedia Commons",
+    "license": "CC BY-SA 3.0",
+    "artist": "Zsoldos Márton",
+    "source": "https://commons.wikimedia.org/wiki/File:Thymallus_thymallus_P%C3%A9nzes_p%C3%A9r.jpg"
+  },
+  "catfish": {
+    "file": "File:Especies-invasoras-el-siluro-gigante-europeo.jpg",
+    "credit": "Фото: ZiskoW, CC BY-SA 4.0, Wikimedia Commons",
+    "license": "CC BY-SA 4.0",
+    "artist": "ZiskoW",
+    "source": "https://commons.wikimedia.org/wiki/File:Especies-invasoras-el-siluro-gigante-europeo.jpg"
+  },
+  "crayfish": {
+    "file": "File:European crayfish (Astacus astacus).jpg",
+    "credit": "Фото: Anna N Chapman, CC0, Wikimedia Commons",
+    "license": "CC0",
+    "artist": "Anna N Chapman",
+    "source": "https://commons.wikimedia.org/wiki/File:European_crayfish_(Astacus_astacus).jpg"
+  },
+  "st-johns-wort": {
+    "file": "File:Hypericon-perforatum.JPG",
+    "credit": "Фото: Sten Porse, CC BY-SA 3.0, Wikimedia Commons",
+    "license": "CC BY-SA 3.0",
+    "artist": "Sten Porse",
+    "source": "https://commons.wikimedia.org/wiki/File:Hypericon-perforatum.JPG"
+  },
+  "calendula": {
+    "file": "File:Calendula officinalis 03-09-2005 15.21.56.JPG",
+    "credit": "Фото: I took this photo in the dunes near Katwijk, Public domain, Wikimedia Commons",
+    "license": "Public domain",
+    "artist": "I took this photo in the dunes near Katwijk",
+    "source": "https://commons.wikimedia.org/wiki/File:Calendula_officinalis_03-09-2005_15.21.56.JPG"
+  },
+  "squirrel": {
+    "file": "File:Белка википедия.jpg",
+    "credit": "Фото: Денис Пронин 57, CC BY-SA 4.0, Wikimedia Commons",
+    "license": "CC BY-SA 4.0",
+    "artist": "Денис Пронин 57",
+    "source": "https://commons.wikimedia.org/wiki/File:%D0%91%D0%B5%D0%BB%D0%BA%D0%B0_%D0%B2%D0%B8%D0%BA%D0%B8%D0%BF%D0%B5%D0%B4%D0%B8%D1%8F.jpg"
+  },
+  "mint": {
+    "file": "File:Mentha arvensis.jpg",
+    "credit": "Фото: Franz Xaver, CC BY-SA 3.0, Wikimedia Commons",
+    "license": "CC BY-SA 3.0",
+    "artist": "Franz Xaver",
+    "source": "https://commons.wikimedia.org/wiki/File:Mentha_arvensis.jpg"
+  },
+  "milkcap": {
+    "file": "File:Lactarius resimus1.jpg",
+    "credit": "Фото: Игорь Лебединский, CC BY 3.0, Wikimedia Commons",
+    "license": "CC BY 3.0",
+    "artist": "Игорь Лебединский",
+    "source": "https://commons.wikimedia.org/wiki/File:Lactarius_resimus1.jpg"
+  },
+  "honey-fungus": {
+    "file": "File:Armillaria mellea JPG1.jpg",
+    "credit": "Фото: Jean-Pol GRANDMONT, CC BY 3.0, Wikimedia Commons",
+    "license": "CC BY 3.0",
+    "artist": "Jean-Pol GRANDMONT",
+    "source": "https://commons.wikimedia.org/wiki/File:Armillaria_mellea_JPG1.jpg"
+  },
+  "goutweed": {
+    "file": "File:Aegopodium podagraria 001.JPG",
+    "credit": "Фото: H. Zell, CC BY-SA 3.0, Wikimedia Commons",
+    "license": "CC BY-SA 3.0",
+    "artist": "H. Zell",
+    "source": "https://commons.wikimedia.org/wiki/File:Aegopodium_podagraria_001.JPG"
+  },
+  "burbot": {
+    "file": "File:Lota lota Hungary.jpg",
+    "credit": "Фото: Harka, Akos, CC BY 3.0, Wikimedia Commons",
+    "license": "CC BY 3.0",
+    "artist": "Harka, Akos",
+    "source": "https://commons.wikimedia.org/wiki/File:Lota_lota_Hungary.jpg"
+  },
+  "hogweed": {
+    "file": "File:Борщевик Сосновского.jpg",
+    "credit": "Фото: Popadius, Public domain, Wikimedia Commons",
+    "license": "Public domain",
+    "artist": "Popadius",
+    "source": "https://commons.wikimedia.org/wiki/File:%D0%91%D0%BE%D1%80%D1%89%D0%B5%D0%B2%D0%B8%D0%BA_%D0%A1%D0%BE%D1%81%D0%BD%D0%BE%D0%B2%D1%81%D0%BA%D0%BE%D0%B3%D0%BE.jpg"
+  },
+  "tench": {
+    "file": "File:Tinca tinca Prague Vltava 2.jpg",
+    "credit": "Фото: Karelj, Public domain, Wikimedia Commons",
+    "license": "Public domain",
+    "artist": "Karelj",
+    "source": "https://commons.wikimedia.org/wiki/File:Tinca_tinca_Prague_Vltava_2.jpg"
+  },
+  "cattail": {
+    "file": "File:Typha latifolia Finland.jpg",
+    "credit": "Фото: Petritap, CC BY-SA 3.0, Wikimedia Commons",
+    "license": "CC BY-SA 3.0",
+    "artist": "Petritap",
+    "source": "https://commons.wikimedia.org/wiki/File:Typha_latifolia_Finland.jpg"
+  },
+  "duck": {
+    "file": "File:Anas platyrhynchos male female.jpg",
+    "credit": "Фото: This picture was realized by Richard Bartz by using a Canon EF 70-300mm f/4-5.6 , CC BY-SA 2.5, Wikimedia Commons",
+    "license": "CC BY-SA 2.5",
+    "artist": "This picture was realized by Richard Bartz by using a Canon EF 70-300mm f/4-5.6 IS USM Lens",
+    "source": "https://commons.wikimedia.org/wiki/File:Anas_platyrhynchos_male_female.jpg"
+  },
+  "lily-of-the-valley": {
+    "file": "File:Convallaria-oliv-r2.jpg",
+    "credit": "Фото: user:Olegivvit, CC BY-SA 3.0, Wikimedia Commons",
+    "license": "CC BY-SA 3.0",
+    "artist": "user:Olegivvit",
+    "source": "https://commons.wikimedia.org/wiki/File:Convallaria-oliv-r2.jpg"
+  },
+  "champignon": {
+    "file": "File:Wiesench.03.jpg",
+    "credit": "Фото: Thomas Pruß, CC BY-SA 3.0, Wikimedia Commons",
+    "license": "CC BY-SA 3.0",
+    "artist": "Thomas Pruß",
+    "source": "https://commons.wikimedia.org/wiki/File:Wiesench.03.jpg"
+  },
+  "bird-cherry": {
+    "file": "File:Bird Cherry (Prunus padus) - geograph.org.uk - 522527.jpg",
+    "credit": "Фото: Anne Burgess, CC BY-SA 2.0, Wikimedia Commons",
+    "license": "CC BY-SA 2.0",
+    "artist": "Anne Burgess",
+    "source": "https://commons.wikimedia.org/wiki/File:Bird_Cherry_(Prunus_padus)_-_geograph.org.uk_-_522527.jpg"
+  },
+  "willow": {
+    "file": "File:Salix caprea Male.jpg",
+    "credit": "Фото: Didier Descouens, CC BY-SA 4.0, Wikimedia Commons",
+    "license": "CC BY-SA 4.0",
+    "artist": "Didier Descouens",
+    "source": "https://commons.wikimedia.org/wiki/File:Salix_caprea_Male.jpg"
+  },
+  "puffball": {
+    "file": "File:Single lycoperdon perlatum.jpg",
+    "credit": "Фото: Daniel Ullrich, CC BY-SA 3.0, Wikimedia Commons",
+    "license": "CC BY-SA 3.0",
+    "artist": "Daniel Ullrich, Threedots",
+    "source": "https://commons.wikimedia.org/wiki/File:Single_lycoperdon_perlatum.jpg"
+  },
+  "viburnum": {
+    "file": "File:Guelder-rose (Viburnum opulus) fruits and foliage (3830092657).jpg",
+    "credit": "Фото: Peter O'Connor aka anemoneprojectors from Stevenage, CC BY-SA 2.0, Wikimedia Commons",
+    "license": "CC BY-SA 2.0",
+    "artist": "Peter O'Connor aka anemoneprojectors from Stevenage, United Kingdom",
+    "source": "https://commons.wikimedia.org/wiki/File:Guelder-rose_(Viburnum_opulus)_fruits_and_foliage_(3830092657).jpg"
+  },
+  "sphagnum": {
+    "file": "File:Sphagnum.flexuosum.jpg",
+    "credit": "Фото: James K. Lindsey, CC BY-SA 3.0, Wikimedia Commons",
+    "license": "CC BY-SA 3.0",
+    "artist": "James K. Lindsey",
+    "source": "https://commons.wikimedia.org/wiki/File:Sphagnum.flexuosum.jpg"
+  },
+  "herb-paris": {
+    "file": "File:Paris quadrifolia 2011 G1.jpg",
+    "credit": "Фото: George Chernilevsky, Public domain, Wikimedia Commons",
+    "license": "Public domain",
+    "artist": "George Chernilevsky",
+    "source": "https://commons.wikimedia.org/wiki/File:Paris_quadrifolia_2011_G1.jpg"
+  },
+  "bergenia": {
+    "file": "File:Bergenia crassifolia a1.jpg",
+    "credit": "Фото: Jerzy Opioła, CC BY-SA 4.0, Wikimedia Commons",
+    "license": "CC BY-SA 4.0",
+    "artist": "Jerzy Opioła",
+    "source": "https://commons.wikimedia.org/wiki/File:Bergenia_crassifolia_a1.jpg"
+  },
+  "daphne": {
+    "file": "File:Daphne mezereum fruits.JPG",
+    "credit": "Фото: MurielBendel, CC BY-SA 4.0, Wikimedia Commons",
+    "license": "CC BY-SA 4.0",
+    "artist": "MurielBendel",
+    "source": "https://commons.wikimedia.org/wiki/File:Daphne_mezereum_fruits.JPG"
+  },
+  "sea-buckthorn": {
+    "file": "File:Hippophae (Novogrudinina).jpg",
+    "credit": "Фото: Виталий Уайлд, CC BY-SA 4.0, Wikimedia Commons",
+    "license": "CC BY-SA 4.0",
+    "artist": "Виталий Уайлд",
+    "source": "https://commons.wikimedia.org/wiki/File:Hippophae_(Novogrudinina).jpg"
+  },
+  "burnet": {
+    "file": "File:Toten 1.jpg",
+    "credit": "Фото: Karelj, Public domain, Wikimedia Commons",
+    "license": "Public domain",
+    "artist": "Karelj",
+    "source": "https://commons.wikimedia.org/wiki/File:Toten_1.jpg"
+  },
+  "oyster-mushroom": {
+    "file": "File:Pleurotus ostreatus JPG7.jpg",
+    "credit": "Фото: voir ci-dessous / see below, CC BY 3.0, Wikimedia Commons",
+    "license": "CC BY 3.0",
+    "artist": "voir ci-dessous / see below",
+    "source": "https://commons.wikimedia.org/wiki/File:Pleurotus_ostreatus_JPG7.jpg"
+  },
+  "pike": {
+    "file": "File:Hal - Esox lucius - 3.jpg",
+    "credit": "Фото: Emőke Dénes, CC BY-SA 4.0, Wikimedia Commons",
+    "license": "CC BY-SA 4.0",
+    "artist": "Emőke Dénes",
+    "source": "https://commons.wikimedia.org/wiki/File:Hal_-_Esox_lucius_-_3.jpg"
+  },
+  "aconite": {
+    "file": "File:Aconitum lycoctonum stems 1 AB.jpg",
+    "credit": "Фото: Antti Bilund, CC BY-SA 3.0, Wikimedia Commons",
+    "license": "CC BY-SA 3.0",
+    "artist": "Antti Bilund",
+    "source": "https://commons.wikimedia.org/wiki/File:Aconitum_lycoctonum_stems_1_AB.jpg"
+  },
+  "tormentil": {
+    "file": "File:Potentilla erecta01.jpg",
+    "credit": "Фото: User:Tigerente, CC BY 2.5, Wikimedia Commons",
+    "license": "CC BY 2.5",
+    "artist": "User:Tigerente",
+    "source": "https://commons.wikimedia.org/wiki/File:Potentilla_erecta01.jpg"
+  },
+  "russula": {
+    "file": "File:2007-07-28 Russula vesca Fr 30066.jpg",
+    "credit": "Фото: user Irene Andersson, CC BY-SA 3.0, Wikimedia Commons",
+    "license": "CC BY-SA 3.0",
+    "artist": "This image was created by user Irene Andersson (irenea) at Mushroom Observer, a source for mycological images.You can contact this user here.",
+    "source": "https://commons.wikimedia.org/wiki/File:2007-07-28_Russula_vesca_Fr_30066.jpg"
+  },
+  "hazelnut": {
+    "file": "File:Corylus avellana ripe nuts.jpg",
+    "credit": "Фото: Simon A. Eugster, CC BY-SA 3.0, Wikimedia Commons",
+    "license": "CC BY-SA 3.0",
+    "artist": "Simon A. Eugster",
+    "source": "https://commons.wikimedia.org/wiki/File:Corylus_avellana_ripe_nuts.jpg"
+  },
+  "ide-chub-2": {
+    "file": "File:Squalius cephalus Prague Vltava 2.jpg",
+    "credit": "Фото: Karelj, Public domain, Wikimedia Commons",
+    "license": "Public domain",
+    "artist": "Karelj",
+    "source": "https://commons.wikimedia.org/wiki/File:Squalius_cephalus_Prague_Vltava_2.jpg"
+  },
+  "morel": {
+    "file": "File:Morchella esculenta 300405.jpg",
+    "credit": "Фото: Bernd Haynold, CC BY-SA 2.5, Wikimedia Commons",
+    "license": "CC BY-SA 2.5",
+    "artist": "Bernd Haynold",
+    "source": "https://commons.wikimedia.org/wiki/File:Morchella_esculenta_300405.jpg"
+  },
+  "oak-bark": {
+    "file": "File:Quercus robur acorns and leaves.jpg",
+    "credit": "Фото: Mannivu, CC BY-SA 4.0, Wikimedia Commons",
+    "license": "CC BY-SA 4.0",
+    "artist": "Mannivu",
+    "source": "https://commons.wikimedia.org/wiki/File:Quercus_robur_acorns_and_leaves.jpg"
+  },
+  "belladonna": {
+    "file": "File:Atropa belladonna 030705.jpg",
+    "credit": "Фото: BerndH, CC BY-SA 2.5, Wikimedia Commons",
+    "license": "CC BY-SA 2.5",
+    "artist": "BerndH",
+    "source": "https://commons.wikimedia.org/wiki/File:Atropa_belladonna_030705.jpg"
+  },
+  "bearberry": {
+    "file": "File:Arctostaphylos uva-ursi 25924.JPG",
+    "credit": "Фото: Walter Siegmund, CC BY 2.5, Wikimedia Commons",
+    "license": "CC BY 2.5",
+    "artist": "Walter Siegmund",
+    "source": "https://commons.wikimedia.org/wiki/File:Arctostaphylos_uva-ursi_25924.JPG"
+  },
+  "grayling-trout-2": {
+    "file": "File:Salmo trutta fario Hungary.jpg",
+    "credit": "Фото: Harka, CC BY 3.0, Wikimedia Commons",
+    "license": "CC BY 3.0",
+    "artist": "Harka, Akos",
+    "source": "https://commons.wikimedia.org/wiki/File:Salmo_trutta_fario_Hungary.jpg"
+  },
+  "death-cap": {
+    "file": "File:2005-09 Amanita phalloides crop.jpg",
+    "credit": "Фото: Amanita_phalloides_1.JPG: User:Archenzo derivative work: Ak , CC BY-SA 3.0, Wikimedia Commons",
+    "license": "CC BY-SA 3.0",
+    "artist": "Amanita_phalloides_1.JPG: User:Archenzo derivative work: Ak ccm",
+    "source": "https://commons.wikimedia.org/wiki/File:2005-09_Amanita_phalloides_crop.jpg"
+  },
+  "belladonna-2": {
+    "file": "File:Henbane2.jpg",
+    "credit": "Фото: Mikenorton, CC BY-SA 3.0, Wikimedia Commons",
+    "license": "CC BY-SA 3.0",
+    "artist": "Mikenorton",
+    "source": "https://commons.wikimedia.org/wiki/File:Henbane2.jpg"
+  },
+  "valerian": {
+    "file": "File:ValerianaOfficinalisAgg.jpg",
+    "credit": "Фото: Christian Fischer, CC BY-SA 3.0, Wikimedia Commons",
+    "license": "CC BY-SA 3.0",
+    "artist": "Christian Fischer",
+    "source": "https://commons.wikimedia.org/wiki/File:ValerianaOfficinalisAgg.jpg"
+  },
+  "sage-thyme": {
+    "file": "File:Thymus serpyllum flowering plants.jpg",
+    "credit": "Фото: Borealis55, Public domain, Wikimedia Commons",
+    "license": "Public domain",
+    "artist": "Borealis55",
+    "source": "https://commons.wikimedia.org/wiki/File:Thymus_serpyllum_flowering_plants.jpg"
+  },
+  "datura": {
+    "file": "File:Dat str tat7.JPG",
+    "credit": "Фото: Skäpperöd, CC BY-SA 3.0, Wikimedia Commons",
+    "license": "CC BY-SA 3.0",
+    "artist": "Skäpperöd",
+    "source": "https://commons.wikimedia.org/wiki/File:Dat_str_tat7.JPG"
+  },
+  "destroying-angel": {
+    "file": "File:Going for a bite 1117845500.jpg",
+    "credit": "Фото: Miika Silfverberg, CC BY-SA 2.0, Wikimedia Commons",
+    "license": "CC BY-SA 2.0",
+    "artist": "Miika Silfverberg",
+    "source": "https://commons.wikimedia.org/wiki/File:Going_for_a_bite_1117845500.jpg"
+  },
+  "zherlitsa": {
+    "file": "File:Podlednaya-zherlica.png",
+    "credit": "Фото: Kokovanya, CC BY-SA 3.0, Wikimedia Commons",
+    "license": "CC BY-SA 3.0",
+    "artist": "Kokovanya",
+    "source": "https://commons.wikimedia.org/wiki/File:Podlednaya-zherlica.png"
+  },
+  "fly-agaric": {
+    "file": "File:Amanita muscaria 3 vliegenzwammen op rij.jpg",
+    "credit": "Фото: Onderwijsgek, CC BY-SA 3.0 nl, Wikimedia Commons",
+    "license": "CC BY-SA 3.0 nl",
+    "artist": "Onderwijsgek",
+    "source": "https://commons.wikimedia.org/wiki/File:Amanita_muscaria_3_vliegenzwammen_op_rij.jpg"
+  },
+  "veratrum": {
+    "file": "File:Veratrum lobelianum.png",
+    "credit": "Фото: Michał Smoczyk, CC BY-SA 3.0, Wikimedia Commons",
+    "license": "CC BY-SA 3.0",
+    "artist": "Michał Smoczyk (Michau Sm)",
+    "source": "https://commons.wikimedia.org/wiki/File:Veratrum_lobelianum.png"
+  },
+  "ice-fishing": {
+    "file": "File:Ice fishing in finland.jpg",
+    "credit": "Фото: The Finnish Museum of Photography, Public domain, Wikimedia Commons",
+    "license": "Public domain",
+    "artist": "The Finnish Museum of Photography",
+    "source": "https://commons.wikimedia.org/wiki/File:Ice_fishing_in_finland.jpg"
+  },
+  "galerina": {
+    "file": "File:Gifthäublinge.jpg",
+    "credit": "Фото: Lebrac, CC BY-SA 3.0, Wikimedia Commons",
+    "license": "CC BY-SA 3.0",
+    "artist": "Lebrac",
+    "source": "https://commons.wikimedia.org/wiki/File:Gifth%C3%A4ublinge.jpg"
+  },
+  "colchicum": {
+    "file": "File:Colchicum autumnale HRM.JPG",
+    "credit": "Фото: Cillas, CC BY-SA 4.0, Wikimedia Commons",
+    "license": "CC BY-SA 4.0",
+    "artist": "Cillas",
+    "source": "https://commons.wikimedia.org/wiki/File:Colchicum_autumnale_HRM.JPG"
+  },
+  "false-honey": {
+    "file": "File:Hypholoma fasciculare LC0091.jpg",
+    "credit": "Фото: Jörg Hempel, CC BY-SA 2.0 de, Wikimedia Commons",
+    "license": "CC BY-SA 2.0 de",
+    "artist": "Jörg Hempel",
+    "source": "https://commons.wikimedia.org/wiki/File:Hypholoma_fasciculare_LC0091.jpg"
+  },
+  "cortinarius": {
+    "file": "File:Corellanus.jpg",
+    "credit": "Фото: The original uploader was Michaelll at English Wikipedia., CC BY-SA 2.5, Wikimedia Commons",
+    "license": "CC BY-SA 2.5",
+    "artist": "The original uploader was Michaelll at English Wikipedia.",
+    "source": "https://commons.wikimedia.org/wiki/File:Corellanus.jpg"
+  },
+  "paxillus": {
+    "file": "File:Paxillus involutus (Batsch) Fr..jpg",
+    "credit": "Фото: Joansfr, CC BY-SA 3.0, Wikimedia Commons",
+    "license": "CC BY-SA 3.0",
+    "artist": "Joansfr",
+    "source": "https://commons.wikimedia.org/wiki/File:Paxillus_involutus_(Batsch)_Fr..jpg"
+  },
+  "yew": {
+    "file": "File:Fruit of common yew (Taxus baccata).jpg",
+    "credit": "Фото: hedera.baltica, CC BY-SA 2.0, Wikimedia Commons",
+    "license": "CC BY-SA 2.0",
+    "artist": "hedera.baltica",
+    "source": "https://commons.wikimedia.org/wiki/File:Fruit_of_common_yew_(Taxus_baccata).jpg"
+  },
+  "gyromitra": {
+    "file": "File:Frühjahrslorchel.JPG",
+    "credit": "Фото: неизвестен, CC BY-SA 3.0, Wikimedia Commons",
+    "license": "CC BY-SA 3.0",
+    "artist": "неизвестен",
+    "source": "https://commons.wikimedia.org/wiki/File:Fr%C3%BChjahrslorchel.JPG"
+  },
+  "satan-bolete": {
+    "file": "File:Satans-Röhrling Boletus satanas.jpg",
+    "credit": "Фото: Holger Krisp, CC BY 3.0, Wikimedia Commons",
+    "license": "CC BY 3.0",
+    "artist": "Holger Krisp",
+    "source": "https://commons.wikimedia.org/wiki/File:Satans-R%C3%B6hrling_Boletus_satanas.jpg"
+  },
+  "ledum": {
+    "file": "File:Rhododendron-palustre.JPG",
+    "credit": "Фото: неизвестен, CC BY-SA 3.0, Wikimedia Commons",
+    "license": "CC BY-SA 3.0",
+    "artist": "неизвестен",
+    "source": "https://commons.wikimedia.org/wiki/File:Rhododendron-palustre.JPG"
+  },
+  "birch-buds": {
+    "file": "File:Inonotus obliquus kz01.jpg",
+    "credit": "Фото: Krzysztof Ziarnek, CC BY-SA 4.0, Wikimedia Commons",
+    "license": "CC BY-SA 4.0",
+    "artist": "Krzysztof Ziarnek, Kenraiz",
+    "source": "https://commons.wikimedia.org/wiki/File:Inonotus_obliquus_kz01.jpg"
+  },
+  "saffron-milkcap": {
+    "file": "File:Lactarius-deliciosus-Finland.jpg",
+    "credit": "Фото: Petritap, CC BY-SA 3.0, Wikimedia Commons",
+    "license": "CC BY-SA 3.0",
+    "artist": "Petritap",
+    "source": "https://commons.wikimedia.org/wiki/File:Lactarius-deliciosus-Finland.jpg"
+  },
+  "bracken-2": {
+    "file": "File:Pteridium aquilinum var. pubescens fiddlehead unfurling in spring.jpg",
+    "credit": "Фото: Thayne Tuason, CC BY-SA 4.0, Wikimedia Commons",
+    "license": "CC BY-SA 4.0",
+    "artist": "Thayne Tuason",
+    "source": "https://commons.wikimedia.org/wiki/File:Pteridium_aquilinum_var._pubescens_fiddlehead_unfurling_in_spring.jpg"
+  },
+  "currant-wild": {
+    "file": "File:Чёрная смородина (57166332).jpeg",
+    "credit": "Фото: Dmitriy Nyashkin, CC BY-SA 3.0, Wikimedia Commons",
+    "license": "CC BY-SA 3.0",
+    "artist": "Dmitriy Nyashkin",
+    "source": "https://commons.wikimedia.org/wiki/File:%D0%A7%D1%91%D1%80%D0%BD%D0%B0%D1%8F_%D1%81%D0%BC%D0%BE%D1%80%D0%BE%D0%B4%D0%B8%D0%BD%D0%B0_(57166332).jpeg"
+  },
+  "moose-deer": {
+    "file": "File:Moose superior.jpg",
+    "credit": "Фото: USDA Forest Service, Public domain, Wikimedia Commons",
+    "license": "Public domain",
+    "artist": "USDA Forest Service",
+    "source": "https://commons.wikimedia.org/wiki/File:Moose_superior.jpg"
+  },
+  "wild-boar": {
+    "file": "File:Ausgewachsenes Wildschwein beim Suhlen.JPG",
+    "credit": "Фото: 4028mdk09, CC BY-SA 3.0, Wikimedia Commons",
+    "license": "CC BY-SA 3.0",
+    "artist": "4028mdk09",
+    "source": "https://commons.wikimedia.org/wiki/File:Ausgewachsenes_Wildschwein_beim_Suhlen.JPG"
+  },
+  "beaver-muskrat": {
+    "file": "File:Обыкновенный бобр (Castor fiber), Покровское-Стрешнево.jpg",
+    "credit": "Фото: Dion Art, CC BY-SA 4.0, Wikimedia Commons",
+    "license": "CC BY-SA 4.0",
+    "artist": "Dion Art",
+    "source": "https://commons.wikimedia.org/wiki/File:%D0%9E%D0%B1%D1%8B%D0%BA%D0%BD%D0%BE%D0%B2%D0%B5%D0%BD%D0%BD%D1%8B%D0%B9_%D0%B1%D0%BE%D0%B1%D1%80_(Castor_fiber),_%D0%9F%D0%BE%D0%BA%D1%80%D0%BE%D0%B2%D1%81%D0%BA%D0%BE%D0%B5-%D0%A1%D1%82%D1%80%D0%B5%D1%88%D0%BD%D0%B5%D0%B2%D0%BE.jpg"
+  },
+  "nightshade-2": {
+    "file": "File:Berries of Solanum nigrum - (1).jpg",
+    "credit": "Фото: Jacopo Werther, CC BY-SA 4.0, Wikimedia Commons",
+    "license": "CC BY-SA 4.0",
+    "artist": "Jacopo Werther",
+    "source": "https://commons.wikimedia.org/wiki/File:Berries_of_Solanum_nigrum_-_(1).jpg"
+  },
+  "daphne-2": {
+    "file": "File:Daphne mezereum flowers - Keila.jpg",
+    "credit": "Фото: Ivar Leidus, CC BY-SA 4.0, Wikimedia Commons",
+    "license": "CC BY-SA 4.0",
+    "artist": "Ivar Leidus",
+    "source": "https://commons.wikimedia.org/wiki/File:Daphne_mezereum_flowers_-_Keila.jpg"
+  },
+  "grouse": {
+    "file": "File:Haselhuhn-01.jpg",
+    "credit": "Фото: Wilfried Berns, CC BY-SA 2.0 de, Wikimedia Commons",
+    "license": "CC BY-SA 2.0 de",
+    "artist": "Wilfried Berns",
+    "source": "https://commons.wikimedia.org/wiki/File:Haselhuhn-01.jpg"
+  },
+  "ptarmigan": {
+    "file": "File:Willow grouse standing.jpg",
+    "credit": "Фото: неизвестен, Public domain, Wikimedia Commons",
+    "license": "Public domain",
+    "artist": "неизвестен",
+    "source": "https://commons.wikimedia.org/wiki/File:Willow_grouse_standing.jpg"
+  },
+  "frogs-snakes": {
+    "file": "File:European Common Frog Rana temporaria (cropped).jpg",
+    "credit": "Фото: Richard Bartz, CC BY-SA 2.5, Wikimedia Commons",
+    "license": "CC BY-SA 2.5",
+    "artist": "Richard Bartz, Munich aka Makro Freak Image:MFB.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:European_Common_Frog_Rana_temporaria_(cropped).jpg"
+  },
+  "water-hemlock-2": {
+    "file": "File:Cicuta virosa kz08.jpg",
+    "credit": "Фото: Krzysztof Ziarnek, CC BY-SA 4.0, Wikimedia Commons",
+    "license": "CC BY-SA 4.0",
+    "artist": "Krzysztof Ziarnek, Kenraiz",
+    "source": "https://commons.wikimedia.org/wiki/File:Cicuta_virosa_kz08.jpg"
+  }
+}

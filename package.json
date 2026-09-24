@@ -1,0 +1,31 @@
+{
+  "name": "arise",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Офлайн-справочник по выживанию (PWA)",
+  "type": "module",
+  "scripts": {
+    "assets": "node scripts/icons.mjs && node scripts/images.mjs && node scripts/books.mjs && node scripts/pdfjs.mjs",
+    "dev": "npm run assets && vite --host",
+    "typecheck": "tsc --noEmit",
+    "content:report": "node scripts/content-report.mjs",
+    "build": "npm run assets && tsc --noEmit && vite build && node scripts/postbuild.mjs",
+    "preview": "vite preview --host --port 4173",
+    "start": "npm run build && vite preview --host --port 4173 --open"
+  },
+  "dependencies": {
+    "minisearch": "^7.2.0",
+    "preact": "^10.29.8"
+  },
+  "devDependencies": {
+    "@preact/preset-vite": "^2.10.6",
+    "@types/node": "^26.6.2",
+    "gray-matter": "^4.0.3",
+    "marked": "^18.0.14",
+    "pdfjs-dist": "^6.3.289",
+    "sharp": "^0.35.4",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.0",
+    "vite-plugin-singlefile": "^2.3.3"
+  }
+}
