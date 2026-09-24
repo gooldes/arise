@@ -1300,5 +1300,75 @@
     "license": "CC BY-SA 4.0",
     "artist": "Picanox",
     "source": "https://commons.wikimedia.org/wiki/File:Mosin-Nagant-9130.jpg"
+  },
+  "salvage-springs": {
+    "file": "File:Leaf springs in a scrap yard.jpg",
+    "credit": "Фото: Spielvogel, CC0, Wikimedia Commons",
+    "license": "CC0",
+    "artist": "Spielvogel For a gallery of some more of my uploaded pictures see: here.",
+    "source": "https://commons.wikimedia.org/wiki/File:Leaf_springs_in_a_scrap_yard.jpg"
+  },
+  "flint-knapping": {
+    "file": "File:Phil Harding knapping flint 2.jpg",
+    "credit": "Фото: Richard Avery, CC0, Wikimedia Commons",
+    "license": "CC0",
+    "artist": "Richard Avery",
+    "source": "https://commons.wikimedia.org/wiki/File:Phil_Harding_knapping_flint_2.jpg"
+  },
+  "bone-needle": {
+    "file": "File:Prehistoric bone needle (FindID 519538).jpg",
+    "credit": "Фото: Museum of London, CC BY-SA 4.0, Wikimedia Commons",
+    "license": "CC BY-SA 4.0",
+    "artist": "Museum of London, Kate Sumnall, 2012-09-06 06:55:23",
+    "source": "https://commons.wikimedia.org/wiki/File:Prehistoric_bone_needle_(FindID_519538).jpg"
+  },
+  "drovni": {
+    "file": "File:Drovni SPMZ.jpg",
+    "credit": "Фото: Лапоть, CC0, Wikimedia Commons",
+    "license": "CC0",
+    "artist": "Лапоть",
+    "source": "https://commons.wikimedia.org/wiki/File:Drovni_SPMZ.jpg"
+  },
+  "birch-letter": {
+    "file": "File:Birch-bark letter 292 real.jpg",
+    "credit": "Фото: Unknown, Public domain, Wikimedia Commons",
+    "license": "Public domain",
+    "artist": "Unknown, photographed by Gratomy.ru",
+    "source": "https://commons.wikimedia.org/wiki/File:Birch-bark_letter_292_real.jpg"
+  },
+  "dental-forceps": {
+    "file": "File:Dental extraction forceps.jpg",
+    "credit": "Фото: Revolver00870, CC BY-SA 4.0, Wikimedia Commons",
+    "license": "CC BY-SA 4.0",
+    "artist": "Revolver00870",
+    "source": "https://commons.wikimedia.org/wiki/File:Dental_extraction_forceps.jpg"
+  },
+  "dental-elevators": {
+    "file": "File:Warwick james dental elevators.jpg",
+    "credit": "Фото: Sadandy, CC BY-SA 4.0, Wikimedia Commons",
+    "license": "CC BY-SA 4.0",
+    "artist": "Sadandy",
+    "source": "https://commons.wikimedia.org/wiki/File:Warwick_james_dental_elevators.jpg"
+  },
+  "lapti": {
+    "file": "File:Lapti 1 - Smolensk Flax.jpg",
+    "credit": "Фото: Лапоть, CC0, Wikimedia Commons",
+    "license": "CC0",
+    "artist": "Лапоть",
+    "source": "https://commons.wikimedia.org/wiki/File:Lapti_1_-_Smolensk_Flax.jpg"
+  },
+  "flax-brake": {
+    "file": "File:Flax brake 1 - Smolensk Flax.jpg",
+    "credit": "Фото: Лапоть, CC0, Wikimedia Commons",
+    "license": "CC0",
+    "artist": "Лапоть",
+    "source": "https://commons.wikimedia.org/wiki/File:Flax_brake_1_-_Smolensk_Flax.jpg"
+  },
+  "warp-loom": {
+    "file": "File:Iron Age Warp Weighted Loom 1995 No2 Replica.jpg",
+    "credit": "Фото: Weaver80, CC BY-SA 4.0, Wikimedia Commons",
+    "license": "CC BY-SA 4.0",
+    "artist": "Weaver80",
+    "source": "https://commons.wikimedia.org/wiki/File:Iron_Age_Warp_Weighted_Loom_1995_No2_Replica.jpg"
   }
 }

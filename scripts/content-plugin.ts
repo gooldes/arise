@@ -66,6 +66,22 @@ function htmlToText(html: string): string {
     .trim()
 }
 
+/** Галочки в строках обычных таблиц (таблицы запасов `supplies` не трогаем) */
+function checkableTableRows(html: string): string {
+  return html.replace(/<table>([\s\S]*?)<\/table>/g, (table) =>
+    table.replace(/<tbody>([\s\S]*?)<\/tbody>/, (tbody) =>
+      tbody.replace(/<tr>([\s\S]*?)<\/tr>/g, (row, cells: string) => {
+        const tds = cells.match(/<td[^>]*>[\s\S]*?<\/td>/g) ?? []
+        const first = tds[0] ?? ''
+        const restEmpty = tds.slice(1).every((td) => htmlToText(td) === '')
+        const isGroupTitle = restEmpty && /^<td[^>]*>\s*<strong>[\s\S]*<\/strong>\s*<\/td>$/.test(first)
+        if (htmlToText(first) === '' || isGroupTitle) return row
+        return `<tr class="check-row">${cells.replace(/<td([^>]*)>/, '<td$1><input disabled="" type="checkbox"> ')}</tr>`
+      }),
+    ),
+  )
+}
+
 /** gray-matter + автоисправление частой ошибки: двоеточие в незакавыченном title/summary */
 function parseFrontmatter(src: string, rel: string, problems: string[]) {
   try {
@@ -139,6 +155,8 @@ interface RawTerm {
   forms?: string[]
   definition: string
   article?: string
+  /** только перечисленные формы, без поиска по основе */
+  exact?: boolean
 }
 
 interface TermMatcher {
@@ -150,7 +168,7 @@ interface TermMatcher {
 }
 
 function loadGlossary(problems: string[]): TermMatcher {
-  const byKey = new Map<string, { term: Term; forms: Set<string> }>()
+  const byKey = new Map<string, { term: Term; forms: Set<string>; exact: boolean }>()
   for (const file of walk(GLOSSARY_DIR, '.json').sort()) {
     const list = readJson<RawTerm[]>(file, problems)
     if (!Array.isArray(list)) continue
@@ -165,12 +183,14 @@ function loadGlossary(problems: string[]): TermMatcher {
       if (existing) {
         // один термин из разных файлов: объединяем формы, берём первое определение
         forms.forEach((f) => existing.forms.add(f))
+        existing.exact ||= Boolean(raw.exact)
         existing.term.article ??= raw.article
         continue
       }
       byKey.set(key, {
         term: { id: '', term: raw.term.trim(), definition: raw.definition.trim(), article: raw.article || undefined },
         forms: new Set(forms),
+        exact: Boolean(raw.exact),
       })
     }
   }
@@ -178,8 +198,11 @@ function loadGlossary(problems: string[]): TermMatcher {
   const entries = [...byKey.values()].sort((a, b) => a.term.term.localeCompare(b.term.term, 'ru'))
   const terms: Term[] = []
   const formToId = new Map<string, string>()
-  entries.forEach(({ term, forms }, i) => {
+  // exact: true — только перечисленные формы, без поиска по основе («постав» не должен ловить «поставьте»)
+  const exactIds = new Set<string>()
+  entries.forEach(({ term, forms, exact }, i) => {
     term.id = `t${i}`
+    if (exact) exactIds.add(term.id)
     terms.push(term)
     for (const f of forms) if (!formToId.has(f)) formToId.set(f, term.id)
   })
@@ -187,7 +210,7 @@ function loadGlossary(problems: string[]): TermMatcher {
   const stems: { stem: string; id: string }[] = []
   const seenStems = new Set<string>()
   for (const [form, id] of formToId) {
-    if (/\s/.test(form) || form.length < 6) continue
+    if (/\s/.test(form) || form.length < 6 || exactIds.has(id)) continue
     const st = stem(form)
     if (st.length < 5 || seenStems.has(st)) continue
     seenStems.add(st)
@@ -371,6 +394,9 @@ function loadContent() {
     html = html.replace(/<p>(<img [^>]*?title="([^"]*)"[^>]*>)<\/p>/g, (_m, img: string, title: string) =>
       `<figure>${img.replace(/ title="[^"]*"/, '')}<figcaption>${title}</figcaption></figure>`,
     )
+    // checktable: true — строки таблиц-списков («что взять») тоже отмечаются галочкой.
+    // Строка-подзаголовок (заполнена только первая ячейка) галочки не получает.
+    if (data.checktable) html = checkableTableRows(html)
     // Чек-листы «- [ ] пункт» → интерактивные галочки (состояние хранится на устройстве)
     let checklistSize = 0
     html = html.replace(/<input (?:checked="" )?disabled="" type="checkbox"(?: checked="")?>/g, () =>

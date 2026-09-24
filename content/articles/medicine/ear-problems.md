@@ -4,7 +4,7 @@ summary: Как отличить наружный отит от среднего
 section: Зубы, глаза, уши
 urgency: normal
 sos: false
-order: 3
+order: 7
 tags: [болит ухо, отит, гной из уха, серная пробка, барабанная перепонка, заложило ухо, звон в ушах, ухо после взрыва]
 related: [respiratory-infections, antibiotics, drug-dosing, foreign-bodies, shelling, eye-problems, child-illness, danger-signs]
 ---

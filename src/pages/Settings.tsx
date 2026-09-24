@@ -44,7 +44,7 @@ export function Settings() {
 
   return (
     <>
-      <Header title="Настройки" />
+      <Header title="Настройки" back={to.home()} />
       <main class="page">
         <section class="section">
           <h2 class="section__title">Офлайн-доступ</h2>

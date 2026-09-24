@@ -4,6 +4,7 @@ summary: Что положить в рюкзак на 72 часа автоном
 section: Наборы и снаряжение
 urgency: important
 sos: false
+checktable: true
 order: 2
 tags: [тревожный чемоданчик, тревожный рюкзак, эвакуация, что взять, рюкзак, 72 часа]
 related: [evacuation, documents-money, stockpile-list, first-aid-kit, family-plan, clothing-layers]

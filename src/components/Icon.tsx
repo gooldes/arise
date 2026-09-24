@@ -15,6 +15,7 @@ const PATHS = {
   download: 'M12 3v12M7 10l5 5 5-5M4 20h16',
   book: 'M4 4.5A1.5 1.5 0 0 1 5.5 3H20v15H5.5A1.5 1.5 0 0 0 4 19.5zM4 19.5A1.5 1.5 0 0 0 5.5 21H20v-3',
   glossary: 'M4 5h16M4 10h16M4 15h10M4 20h7',
+  list: 'M9 6h11M9 12h11M9 18h11M4 5.5l1 1 2-2M4 11.5l1 1 2-2M4 17.5l1 1 2-2',
   plus: 'M12 5v14M5 12h14',
   minus: 'M5 12h14',
   external: 'M14 4h6v6M20 4l-9 9M18 14v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h5',

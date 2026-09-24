@@ -4,7 +4,8 @@ import { useEffect, useState } from 'preact/hooks'
 export type Route =
   | { name: 'home' }
   | { name: 'category'; id: string }
-  | { name: 'article'; slug: string }
+  | { name: 'article'; slug: string; list?: boolean }
+  | { name: 'lists' }
   | { name: 'search'; q: string }
   | { name: 'sos' }
   | { name: 'favorites' }
@@ -25,6 +26,10 @@ export function parseHash(hash: string): Route {
       return parts[1] ? { name: 'category', id: parts[1] } : { name: 'notfound' }
     case 'a':
       return parts[1] ? { name: 'article', slug: parts[1] } : { name: 'notfound' }
+    case 'l':
+      return parts[1] ? { name: 'article', slug: parts[1], list: true } : { name: 'lists' }
+    case 'lists':
+      return { name: 'lists' }
     case 'search':
       return { name: 'search', q: new URLSearchParams(query).get('q') ?? '' }
     case 'sos':
@@ -60,6 +65,8 @@ export const to = {
   home: () => '#/',
   category: (id: string) => `#/c/${encodeURIComponent(id)}`,
   article: (slug: string) => `#/a/${encodeURIComponent(slug)}`,
+  list: (slug: string) => `#/l/${encodeURIComponent(slug)}`,
+  lists: () => '#/lists',
   search: (q = '') => (q ? `#/search?q=${encodeURIComponent(q)}` : '#/search'),
   sos: () => '#/sos',
   favorites: () => '#/fav',

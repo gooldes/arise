@@ -430,7 +430,8 @@
       "прикорма"
     ],
     "definition": "Первая твёрдая еда для ребёнка в дополнение к грудному молоку или смеси, обычно с 6 месяцев.",
-    "article": "infant-emergency"
+    "article": "infant-emergency",
+    "exact": true
   },
   {
     "term": "Кожа к коже",

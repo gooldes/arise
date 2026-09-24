@@ -1829,3 +1829,44 @@ mark {
   color: var(--text-2);
   font-size: 0.8rem;
 }
+
+/* ---------- Списки: галочки в строках таблиц, режим «только список», экран «Списки» ---------- */
+.prose tr.check-row td:first-child {
+  position: relative;
+  padding-left: 34px;
+}
+.prose tr.check-row input.check {
+  left: 6px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.prose tr.is-checked td {
+  color: var(--text-2);
+  text-decoration: line-through;
+  text-decoration-color: color-mix(in srgb, var(--text-2) 60%, transparent);
+}
+.segmented--2 {
+  grid-template-columns: 1fr 1fr;
+  margin-bottom: 12px;
+}
+.prose--list > h2 {
+  margin-top: 1.4em;
+}
+.list-progress {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 6px;
+  font-size: 0.8rem;
+  color: var(--text-2);
+}
+.list-progress progress {
+  flex: 1;
+  max-width: 180px;
+  accent-color: var(--ok);
+}
+.page-intro {
+  margin: 4px 0 8px;
+  color: var(--text-2);
+  font-size: 0.92rem;
+}

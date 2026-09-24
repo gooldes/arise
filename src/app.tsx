@@ -14,6 +14,7 @@ import { Favorites } from './pages/Favorites'
 import { Glossary } from './pages/Glossary'
 import { Medcard } from './pages/Medcard'
 import { Home } from './pages/Home'
+import { Lists } from './pages/Lists'
 import { NotFound } from './pages/NotFound'
 import { Search } from './pages/Search'
 import { Settings } from './pages/Settings'
@@ -36,7 +37,8 @@ export function App() {
     <div class="app">
       {route.name === 'home' && <Home />}
       {route.name === 'category' && <Category id={route.id} />}
-      {route.name === 'article' && <ArticlePage slug={route.slug} key={route.slug} />}
+      {route.name === 'article' && <ArticlePage slug={route.slug} list={route.list} key={route.slug} />}
+      {route.name === 'lists' && <Lists />}
       {route.name === 'search' && <Search initialQuery={route.q} />}
       {route.name === 'sos' && <Sos />}
       {route.name === 'favorites' && <Favorites />}

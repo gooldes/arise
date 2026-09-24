@@ -8,14 +8,21 @@ import { openTerm } from '../components/TermSheet'
 import { Toc } from '../components/Toc'
 import { articleBySlug, articlesIn, categoryById } from '../data'
 import { to } from '../lib/router'
-import { navType } from '../lib/nav'
+import { navType, replaceHash } from '../lib/nav'
 import { checklists, family, favorites, markRecent, readPositions, toggleFavorite } from '../lib/user'
 import { NotFound } from './NotFound'
 
 const URGENCY_LABEL = { critical: 'Экстренно', important: 'Важно', normal: '' }
 
-export function ArticlePage({ slug }: { slug: string }) {
+export function ArticlePage({ slug, list = false }: { slug: string; list?: boolean }) {
   const article = articleBySlug.get(slug)
+  // «Только список»: из статьи остаются заголовки, чек-листы и таблицы — без пояснений
+  const canList = !!article && (article.checklistSize > 0 || article.hasSupplies)
+  const [listMode, setListMode] = useState(list && canList)
+  const switchMode = (next: boolean) => {
+    setListMode(next)
+    replaceHash(next ? to.list(slug) : to.article(slug))
+  }
   const isFav = favorites.use().includes(slug)
   const fam = family.use()
   const checked = checklists.use()[slug] ?? []
@@ -26,7 +33,7 @@ export function ArticlePage({ slug }: { slug: string }) {
   // «Продолжить с места»: при новом открытии статьи, где раньше дочитали до середины
   const [resumeY, setResumeY] = useState<number | null>(() => {
     const y = readPositions.get()[slug]
-    return navType() === 'push' && y && y > 600 ? y : null
+    return navType() === 'push' && !list && y && y > 600 ? y : null
   })
   useEffect(() => {
     let lastY = scrollY
@@ -64,9 +71,14 @@ export function ArticlePage({ slug }: { slug: string }) {
   useLayoutEffect(() => {
     proseRef.current?.querySelectorAll<HTMLInputElement>('input.check').forEach((box) => {
       box.checked = checked.includes(Number(box.dataset.i))
-      box.closest('li')?.classList.toggle('is-checked', box.checked)
+      box.closest('li, tr')?.classList.toggle('is-checked', box.checked)
     })
   }, [slug, checked])
+
+  useLayoutEffect(() => {
+    const root = proseRef.current
+    if (root) filterForList(root, listMode)
+  }, [slug, listMode])
 
   useEffect(() => {
     if (article) markRecent(article.slug)
@@ -101,7 +113,7 @@ export function ArticlePage({ slug }: { slug: string }) {
     <>
       <Header
         title={category?.title ?? ''}
-        back={to.category(article.category)}
+        back={listMode ? to.lists() : to.category(article.category)}
         actions={
           <button
             class={`icon-btn${isFav ? ' is-fav' : ''}`}
@@ -122,7 +134,7 @@ export function ArticlePage({ slug }: { slug: string }) {
             {article.section && <span class="article__section">{article.section}</span>}
             {article.draft && <span class="badge badge--muted">черновик</span>}
           </div>
-          {resumeY !== null && (
+          {resumeY !== null && !listMode && (
             <div class="resume-chip">
               <button
                 class="resume-chip__go"
@@ -139,7 +151,17 @@ export function ArticlePage({ slug }: { slug: string }) {
             </div>
           )}
           <h1 class="article__title">{article.title}</h1>
-          {article.quick && article.quick.length > 0 && (
+          {canList && (
+            <div class="segmented segmented--2" role="group" aria-label="Вид">
+              <button class={listMode ? '' : 'is-active'} aria-pressed={!listMode} onClick={() => switchMode(false)}>
+                Статья
+              </button>
+              <button class={listMode ? 'is-active' : ''} aria-pressed={listMode} onClick={() => switchMode(true)}>
+                Только список
+              </button>
+            </div>
+          )}
+          {!listMode && article.quick && article.quick.length > 0 && (
             <section class="quick-box" aria-label="Что делать сейчас">
               <p class="quick-box__title">⚡ Сделайте сейчас</p>
               <ol class="quick-box__list">
@@ -151,7 +173,7 @@ export function ArticlePage({ slug }: { slug: string }) {
             </section>
           )}
           {article.latin && <p class="article__latin">{article.latin}</p>}
-          {article.image && (
+          {!listMode && article.image && (
             <figure class="article__hero">
               <img
                 src={article.image}
@@ -181,9 +203,14 @@ export function ArticlePage({ slug }: { slug: string }) {
               )}
             </div>
           )}
-          <div class="prose" ref={proseRef} onClick={onProseClick} dangerouslySetInnerHTML={{ __html: article.html }} />
+          <div class={`prose${listMode ? ' prose--list' : ''}`} ref={proseRef} onClick={onProseClick} dangerouslySetInnerHTML={{ __html: article.html }} />
 
-          {article.tags.length > 0 && (
+          {listMode && (
+            <button class="btn btn--ghost" onClick={() => { switchMode(false); scrollTo(0, 0) }}>
+              Показать всю статью с пояснениями
+            </button>
+          )}
+          {!listMode && article.tags.length > 0 && (
             <div class="chips">
               {article.tags.map((t) => (
                 <a key={t} class="chip" href={to.search(t)}>
@@ -195,16 +222,16 @@ export function ArticlePage({ slug }: { slug: string }) {
           {article.updated && <p class="article__updated">Обновлено: {article.updated}</p>}
         </article>
 
-        <Toc root={proseEl} slug={slug} />
+        {!listMode && <Toc root={proseEl} slug={slug} />}
 
-        {related.length > 0 && (
+        {!listMode && related.length > 0 && (
           <section class="section">
             <h2 class="section__title">Связанные статьи</h2>
             <ArticleList articles={related} showCategory />
           </section>
         )}
 
-        {more.length > 0 && (
+        {!listMode && more.length > 0 && (
           <section class="section">
             <h2 class="section__title">Ещё в разделе «{article.section ?? category?.title}»</h2>
             <ArticleList articles={more} />
@@ -213,4 +240,28 @@ export function ArticlePage({ slug }: { slug: string }) {
       </main>
     </>
   )
+}
+
+/** Скрыть всё, кроме заголовков, чек-листов и таблиц; заголовки без списков под ними — тоже */
+function filterForList(root: HTMLElement, on: boolean) {
+  const blocks = Array.from(root.children) as HTMLElement[]
+  const isHeading = (el: Element) => /^H[2-4]$/.test(el.tagName)
+  const level = (el: Element) => Number(el.tagName[1])
+  for (const el of blocks) {
+    el.hidden = on && !isHeading(el) && !(el.querySelector('input.check') || el.matches('.table-wrap, .supplies'))
+  }
+  if (!on) return
+  blocks.forEach((el, i) => {
+    if (!isHeading(el)) return
+    let hasContent = false
+    for (let j = i + 1; j < blocks.length; j++) {
+      const next = blocks[j]
+      if (isHeading(next) && level(next) <= level(el)) break
+      if (!isHeading(next) && !next.hidden) {
+        hasContent = true
+        break
+      }
+    }
+    el.hidden = !hasContent
+  })
 }

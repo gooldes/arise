@@ -4,6 +4,7 @@ summary: Какие лекарства держать дома на месяцы
 section: Лекарства
 urgency: normal
 sos: false
+checktable: true
 order: 1
 tags: [аптечка, лекарства, запас лекарств, домашняя аптечка, какие таблетки нужны]
 related: [first-aid-kit, drug-dosing, antibiotics, expired-medicines, stockpile-list, chronic-conditions]

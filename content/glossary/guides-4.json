@@ -157,7 +157,8 @@
       "обмолотом"
     ],
     "definition": "Выбивание зёрен из колосьев или семян из стручков после сушки.",
-    "article": "village-long-term"
+    "article": "village-long-term",
+    "exact": true
   },
   {
     "term": "Веяние",

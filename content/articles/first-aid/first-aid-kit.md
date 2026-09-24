@@ -4,6 +4,7 @@ summary: Что положить в домашнюю, автомобильную
 section: Оценка и основы
 urgency: normal
 sos: false
+checktable: true
 order: 4
 tags: [аптечка, бинт, жгут, лекарства, перевязка, набор первой помощи]
 related: [essential-medicines, severe-bleeding, wound-care, go-bag, expired-medicines, sterilization]

@@ -4,7 +4,7 @@ summary: Конъюнктивит, ячмень, снежная слепота, 
 section: Зубы, глаза, уши
 urgency: normal
 sos: false
-order: 2
+order: 6
 tags: [глаза, конъюнктивит, красный глаз, ячмень, гной из глаз, снежная слепота, болит глаз]
 related: [eye-injury, vitamin-deficiency, handwashing, antibiotics, essential-medicines]
 ---

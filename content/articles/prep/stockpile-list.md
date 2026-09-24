@@ -4,6 +4,7 @@ summary: Конкретный список воды, еды, лекарств, �
 section: Наборы и снаряжение
 urgency: normal
 sos: false
+checktable: true
 order: 3
 tags: [запасы, список, продукты, вода, консервы, крупы, что купить]
 related: [food-stockpile, water-storage, prep-basics, essential-medicines, go-bag, firewood]
