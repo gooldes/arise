@@ -162,7 +162,7 @@ related: [landslide-avalanche, hypothermia, distress-signals, weather-signs, ele
 
 ### Для детей
 
-- [ ] Солнцезащитные очки и крем для детей, панама
+- [ ] Солнцезащитные очки и крем SPF 50+ (Nivea Sun, Garnier Ambre Solaire, La Roche-Posay Anthelios или аналог) для детей, панама
 - [ ] Тёплая шапка, варежки, запасной комплект сухой одежды
 - [ ] Свисток на шнурке и яркая куртка
 - [ ] Перекусы: орехи, изюм, печенье, шоколад — в кармане

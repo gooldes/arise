@@ -56,7 +56,7 @@ related: [disinfection, activated-charcoal, water-sources, distillation, water-s
 
 ## Покупные фильтры
 
-Если есть возможность — держите в запасе походный фильтр.
+Если есть возможность — держите в запасе походный фильтр (например, Sawyer Mini/Squeeze, Katadyn BeFree, LifeStraw, «Аквафор Универсал» или аналог).
 
 | Тип | Что задерживает | Чего не задерживает |
 | --- | --- | --- |

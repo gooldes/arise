@@ -852,5 +852,327 @@
     "license": "CC BY-SA 4.0",
     "artist": "Krzysztof Ziarnek, Kenraiz",
     "source": "https://commons.wikimedia.org/wiki/File:Cicuta_virosa_kz08.jpg"
+  },
+  "elder": {
+    "file": "File:Ripe Elderberries - geograph.org.uk - 1493180.jpg",
+    "credit": "Фото: Jonathan Billinger, CC BY-SA 2.0, Wikimedia Commons",
+    "license": "CC BY-SA 2.0",
+    "artist": "Jonathan Billinger",
+    "source": "https://commons.wikimedia.org/wiki/File:Ripe_Elderberries_-_geograph.org.uk_-_1493180.jpg"
+  },
+  "elder-2": {
+    "file": "File:Berries sambucus racemosa.jpg",
+    "credit": "Фото: Sunsight, CC BY-SA 3.0, Wikimedia Commons",
+    "license": "CC BY-SA 3.0",
+    "artist": "Sunsight",
+    "source": "https://commons.wikimedia.org/wiki/File:Berries_sambucus_racemosa.jpg"
+  },
+  "tourniquet-cat": {
+    "file": "File:A black CAT tourniquet of the 7th generation.jpg",
+    "credit": "Фото: Struppig taucher, CC BY 4.0, Wikimedia Commons",
+    "license": "CC BY 4.0",
+    "artist": "Struppig taucher",
+    "source": "https://commons.wikimedia.org/wiki/File:A_black_CAT_tourniquet_of_the_7th_generation.jpg"
+  },
+  "hemostatic-gauze": {
+    "file": "File:QuikClot Combat Gauze.png",
+    "credit": "Фото: Jng46, CC BY-SA 4.0, Wikimedia Commons",
+    "license": "CC BY-SA 4.0",
+    "artist": "Jng46",
+    "source": "https://commons.wikimedia.org/wiki/File:QuikClot_Combat_Gauze.png"
+  },
+  "sam-splint": {
+    "file": "File:SamSplint-straight.jpg",
+    "credit": "Фото: Florian Thillmann, CC BY-SA 3.0, Wikimedia Commons",
+    "license": "CC BY-SA 3.0",
+    "artist": "Florian Thillmann",
+    "source": "https://commons.wikimedia.org/wiki/File:SamSplint-straight.jpg"
+  },
+  "epipen": {
+    "file": "File:Epipen.jpg",
+    "credit": "Фото: неизвестен, CC BY-SA 3.0, Wikimedia Commons",
+    "license": "CC BY-SA 3.0",
+    "artist": "неизвестен",
+    "source": "https://commons.wikimedia.org/wiki/File:Epipen.jpg"
+  },
+  "insulin-syringe": {
+    "file": "File:Insulin syringe white background.jpg",
+    "credit": "Фото: Wesalius, CC BY 4.0, Wikimedia Commons",
+    "license": "CC BY 4.0",
+    "artist": "Wesalius",
+    "source": "https://commons.wikimedia.org/wiki/File:Insulin_syringe_white_background.jpg"
+  },
+  "space-blanket": {
+    "file": "File:Emergency blanket 20110709.jpg",
+    "credit": "Фото: Tobosha, Public domain, Wikimedia Commons",
+    "license": "Public domain",
+    "artist": "Tobosha",
+    "source": "https://commons.wikimedia.org/wiki/File:Emergency_blanket_20110709.jpg"
+  },
+  "tonometer": {
+    "file": "File:Aneroid sphygmomanometer with an adult cuff 01.jpg",
+    "credit": "Фото: AfroBrazilian, CC BY-SA 3.0, Wikimedia Commons",
+    "license": "CC BY-SA 3.0",
+    "artist": "AfroBrazilian",
+    "source": "https://commons.wikimedia.org/wiki/File:Aneroid_sphygmomanometer_with_an_adult_cuff_01.jpg"
+  },
+  "katadyn": {
+    "file": "File:Katadyn Hiker Pro.jpg",
+    "credit": "Фото: Sputniktilt, CC BY-SA 3.0, Wikimedia Commons",
+    "license": "CC BY-SA 3.0",
+    "artist": "Sputniktilt",
+    "source": "https://commons.wikimedia.org/wiki/File:Katadyn_Hiker_Pro.jpg"
+  },
+  "ferro-rod": {
+    "file": "File:2Components-FireStone.JPG",
+    "credit": "Фото: Xofc, CC BY-SA 3.0, Wikimedia Commons",
+    "license": "CC BY-SA 3.0",
+    "artist": "Xofc",
+    "source": "https://commons.wikimedia.org/wiki/File:2Components-FireStone.JPG"
+  },
+  "israeli-bandage": {
+    "file": "File:Pansement israélien 2023.jpg",
+    "credit": "Фото: Yann Btx, CC BY-SA 4.0, Wikimedia Commons",
+    "license": "CC BY-SA 4.0",
+    "artist": "Yann Btx",
+    "source": "https://commons.wikimedia.org/wiki/File:Pansement_isra%C3%A9lien_2023.jpg"
+  },
+  "dosimeter": {
+    "file": "File:Индикатор радиоактивности RD1503.jpg",
+    "credit": "Фото: Oleum, CC BY-SA 4.0, Wikimedia Commons",
+    "license": "CC BY-SA 4.0",
+    "artist": "Oleum",
+    "source": "https://commons.wikimedia.org/wiki/File:%D0%98%D0%BD%D0%B4%D0%B8%D0%BA%D0%B0%D1%82%D0%BE%D1%80_%D1%80%D0%B0%D0%B4%D0%B8%D0%BE%D0%B0%D0%BA%D1%82%D0%B8%D0%B2%D0%BD%D0%BE%D1%81%D1%82%D0%B8_RD1503.jpg"
+  },
+  "surgical-mask": {
+    "file": "File:A surgical mask (2017).jpg",
+    "credit": "Фото: AlexChirkin, CC0, Wikimedia Commons",
+    "license": "CC0",
+    "artist": "AlexChirkin",
+    "source": "https://commons.wikimedia.org/wiki/File:A_surgical_mask_(2017).jpg"
+  },
+  "pulse-oximeter": {
+    "file": "File:FingertipPulseOximeter300C2.jpg",
+    "credit": "Фото: Thinkpaul, CC BY-SA 3.0, Wikimedia Commons",
+    "license": "CC BY-SA 3.0",
+    "artist": "Thinkpaul",
+    "source": "https://commons.wikimedia.org/wiki/File:FingertipPulseOximeter300C2.jpg"
+  },
+  "ffp2": {
+    "file": "File:Covid Face mask FFP2 (50577264611).jpg",
+    "credit": "Фото: dronepicr, CC BY 2.0, Wikimedia Commons",
+    "license": "CC BY 2.0",
+    "artist": "dronepicr",
+    "source": "https://commons.wikimedia.org/wiki/File:Covid_Face_mask_FFP2_(50577264611).jpg"
+  },
+  "gas-mask-gp7": {
+    "file": "File:Protivoaz GP-7.JPG",
+    "credit": "Фото: Gleb303, Public domain, Wikimedia Commons",
+    "license": "Public domain",
+    "artist": "Gleb303",
+    "source": "https://commons.wikimedia.org/wiki/File:Protivoaz_GP-7.JPG"
+  },
+  "glucometer": {
+    "file": "File:Bloedsuikermeter compleet.JPG",
+    "credit": "Фото: Erik1980 at Dutch Wikipedia, CC BY-SA 3.0, Wikimedia Commons",
+    "license": "CC BY-SA 3.0",
+    "artist": "Erik1980 at Dutch Wikipedia",
+    "source": "https://commons.wikimedia.org/wiki/File:Bloedsuikermeter_compleet.JPG"
+  },
+  "tarp": {
+    "file": "File:Tarpaulin fly tent.jpg",
+    "credit": "Фото: Ryan Bushby, Public domain, Wikimedia Commons",
+    "license": "Public domain",
+    "artist": "Ryan Bushby(HighInBC)",
+    "source": "https://commons.wikimedia.org/wiki/File:Tarpaulin_fly_tent.jpg"
+  },
+  "compression-sack": {
+    "file": "File:Granite Gear compression stuff sack (8609262351).jpg",
+    "credit": "Фото: Gronkca, CC BY 2.0, Wikimedia Commons",
+    "license": "CC BY 2.0",
+    "artist": "Gronkca",
+    "source": "https://commons.wikimedia.org/wiki/File:Granite_Gear_compression_stuff_sack_(8609262351).jpg"
+  },
+  "pulk": {
+    "file": "File:Fjällpulka (cropped).JPG",
+    "credit": "Фото: Ulf Johansson, CC BY-SA 3.0, Wikimedia Commons",
+    "license": "CC BY-SA 3.0",
+    "artist": "Ulf Johansson",
+    "source": "https://commons.wikimedia.org/wiki/File:Fj%C3%A4llpulka_(cropped).JPG"
+  },
+  "gaiters": {
+    "file": "File:Tourist Gaiters.jpg",
+    "credit": "Фото: Carivaldi, CC BY-SA 3.0, Wikimedia Commons",
+    "license": "CC BY-SA 3.0",
+    "artist": "Carivaldi",
+    "source": "https://commons.wikimedia.org/wiki/File:Tourist_Gaiters.jpg"
+  },
+  "lifestraw": {
+    "file": "File:Lifestraw - safe drinking water (2722820246).jpg",
+    "credit": "Фото: Badri Seshadri from Chennai, CC BY 2.0, Wikimedia Commons",
+    "license": "CC BY 2.0",
+    "artist": "Badri Seshadri from Chennai, India",
+    "source": "https://commons.wikimedia.org/wiki/File:Lifestraw_-_safe_drinking_water_(2722820246).jpg"
+  },
+  "scythe": {
+    "file": "File:Scythes 1.jpg",
+    "credit": "Фото: Izvora, CC BY-SA 4.0, Wikimedia Commons",
+    "license": "CC BY-SA 4.0",
+    "artist": "Izvora",
+    "source": "https://commons.wikimedia.org/wiki/File:Scythes_1.jpg"
+  },
+  "drawknife": {
+    "file": "File:ZiehmesserTop.jpeg",
+    "credit": "Фото: Simon A. Eugster, CC BY-SA 3.0, Wikimedia Commons",
+    "license": "CC BY-SA 3.0",
+    "artist": "Simon A. Eugster",
+    "source": "https://commons.wikimedia.org/wiki/File:ZiehmesserTop.jpeg"
+  },
+  "brace": {
+    "file": "File:Bohrwinde und Schraubendreherklinge.jpg",
+    "credit": "Фото: M_H.DE, CC BY-SA 3.0, Wikimedia Commons",
+    "license": "CC BY-SA 3.0",
+    "artist": "M_H.DE",
+    "source": "https://commons.wikimedia.org/wiki/File:Bohrwinde_und_Schraubendreherklinge.jpg"
+  },
+  "auger": {
+    "file": "File:Auger (AM 2015.34.30-2).jpg",
+    "credit": "Фото: not researched, CC BY 4.0, Wikimedia Commons",
+    "license": "CC BY 4.0",
+    "artist": "not researched",
+    "source": "https://commons.wikimedia.org/wiki/File:Auger_(AM_2015.34.30-2).jpg"
+  },
+  "crosscut-saw": {
+    "file": "File:Two-Man Felling Saw and Springboard.jpg",
+    "credit": "Фото: Eugene Zelenko, CC BY-SA 4.0, Wikimedia Commons",
+    "license": "CC BY-SA 4.0",
+    "artist": "Eugene Zelenko",
+    "source": "https://commons.wikimedia.org/wiki/File:Two-Man_Felling_Saw_and_Springboard.jpg"
+  },
+  "elastrator": {
+    "file": "File:Elastrator rings.JPG",
+    "credit": "Фото: Cgoodwin, CC BY-SA 3.0, Wikimedia Commons",
+    "license": "CC BY-SA 3.0",
+    "artist": "Cgoodwin",
+    "source": "https://commons.wikimedia.org/wiki/File:Elastrator_rings.JPG"
+  },
+  "sickle": {
+    "file": "File:20.Falz.JPG",
+    "credit": "Фото: Juan R. Lascorz, CC BY-SA 3.0, Wikimedia Commons",
+    "license": "CC BY-SA 3.0",
+    "artist": "Juan R. Lascorz",
+    "source": "https://commons.wikimedia.org/wiki/File:20.Falz.JPG"
+  },
+  "flail": {
+    "file": "File:Dreschflegel.jpg",
+    "credit": "Фото: Schweitzer, Public domain, Wikimedia Commons",
+    "license": "Public domain",
+    "artist": "Schweitzer",
+    "source": "https://commons.wikimedia.org/wiki/File:Dreschflegel.jpg"
+  },
+  "pmr446": {
+    "file": "File:PMR radio.jpg",
+    "credit": "Фото: Jakez, CC BY-SA 3.0, Wikimedia Commons",
+    "license": "CC BY-SA 3.0",
+    "artist": "Jakez",
+    "source": "https://commons.wikimedia.org/wiki/File:PMR_radio.jpg"
+  },
+  "sw-radio": {
+    "file": "File:TECSUN PL-330.jpg",
+    "credit": "Фото: Tsurugaaaa, CC0, Wikimedia Commons",
+    "license": "CC0",
+    "artist": "Tsurugaaaa",
+    "source": "https://commons.wikimedia.org/wiki/File:TECSUN_PL-330.jpg"
+  },
+  "maul": {
+    "file": "File:Spalthammer2.jpg",
+    "credit": "Фото: неизвестен, CC BY-SA 3.0, Wikimedia Commons",
+    "license": "CC BY-SA 3.0",
+    "artist": "неизвестен",
+    "source": "https://commons.wikimedia.org/wiki/File:Spalthammer2.jpg"
+  },
+  "snowshoes": {
+    "file": "File:Atlas snowshoes.jpg",
+    "credit": "Фото: неизвестен, Public domain, Wikimedia Commons",
+    "license": "Public domain",
+    "artist": "неизвестен",
+    "source": "https://commons.wikimedia.org/wiki/File:Atlas_snowshoes.jpg"
+  },
+  "shotgun-sxs-izh43": {
+    "file": "File:ИЖ-43Е (1).jpg",
+    "credit": "Фото: ViktorJulin, CC BY-SA 4.0, Wikimedia Commons",
+    "license": "CC BY-SA 4.0",
+    "artist": "ViktorJulin",
+    "source": "https://commons.wikimedia.org/wiki/File:%D0%98%D0%96-43%D0%95_(1).jpg"
+  },
+  "shotgun-ou-izh27": {
+    "file": "File:IZH27.jpg",
+    "credit": "Фото: DenResmelev, CC0, Wikimedia Commons",
+    "license": "CC0",
+    "artist": "DenResmelev",
+    "source": "https://commons.wikimedia.org/wiki/File:IZH27.jpg"
+  },
+  "rifle-bolt-cz455": {
+    "file": "File:CZ455.jpg",
+    "credit": "Фото: Ar22dp, CC BY-SA 4.0, Wikimedia Commons",
+    "license": "CC BY-SA 4.0",
+    "artist": "Ar22dp",
+    "source": "https://commons.wikimedia.org/wiki/File:CZ455.jpg"
+  },
+  "rifle-22-toz78": {
+    "file": "File:TOZ-78 rifle (cropped).jpg",
+    "credit": "Фото: Stefmarmilitaria, CC BY-SA 4.0, Wikimedia Commons",
+    "license": "CC BY-SA 4.0",
+    "artist": "Stefmarmilitaria",
+    "source": "https://commons.wikimedia.org/wiki/File:TOZ-78_rifle_(cropped).jpg"
+  },
+  "airgun-mp512": {
+    "file": "File:Mr-512-airgun.JPG",
+    "credit": "Фото: Ilya.yurtaev, CC BY-SA 3.0, Wikimedia Commons",
+    "license": "CC BY-SA 3.0",
+    "artist": "Ilya.yurtaev",
+    "source": "https://commons.wikimedia.org/wiki/File:Mr-512-airgun.JPG"
+  },
+  "cartridges-soviet": {
+    "file": "File:Soviet cartridges CC BY-SA 4.0 by Grasyl.jpg",
+    "credit": "Фото: Grasyl, CC BY-SA 4.0, Wikimedia Commons",
+    "license": "CC BY-SA 4.0",
+    "artist": "Grasyl",
+    "source": "https://commons.wikimedia.org/wiki/File:Soviet_cartridges_CC_BY-SA_4.0_by_Grasyl.jpg"
+  },
+  "shotgun-open-breech": {
+    "file": "File:BDFAuswerfer900.jpg",
+    "credit": "Фото: Joachim Baecker, CC BY-SA 3.0, Wikimedia Commons",
+    "license": "CC BY-SA 3.0",
+    "artist": "Joachim Baecker",
+    "source": "https://commons.wikimedia.org/wiki/File:BDFAuswerfer900.jpg"
+  },
+  "gun-safe": {
+    "file": "File:Gun Safes.JPG",
+    "credit": "Фото: User:IssueLips, Public domain, Wikimedia Commons",
+    "license": "Public domain",
+    "artist": "User:IssueLips",
+    "source": "https://commons.wikimedia.org/wiki/File:Gun_Safes.JPG"
+  },
+  "shotgun-pump-toz194": {
+    "file": "File:TOZ-194.png",
+    "credit": "Фото: DTKCEKDRK, CC BY-SA 4.0, Wikimedia Commons",
+    "license": "CC BY-SA 4.0",
+    "artist": "DTKCEKDRK",
+    "source": "https://commons.wikimedia.org/wiki/File:TOZ-194.png"
+  },
+  "shotgun-semiauto-saiga12": {
+    "file": "File:Saiga 12K.JPG",
+    "credit": "Фото: Hrd10, CC0, Wikimedia Commons",
+    "license": "CC0",
+    "artist": "Hrd10",
+    "source": "https://commons.wikimedia.org/wiki/File:Saiga_12K.JPG"
+  },
+  "shotshell-12": {
+    "file": "File:12gaugeshotgunshell.jpg",
+    "credit": "Фото: Wikidudeman, Public domain, Wikimedia Commons",
+    "license": "Public domain",
+    "artist": "Wikidudeman",
+    "source": "https://commons.wikimedia.org/wiki/File:12gaugeshotgunshell.jpg"
   }
 }

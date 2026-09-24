@@ -10,7 +10,7 @@ quick:
   - "**Следите за дыханием**; остановилось — [реанимация](cpr-adult) до прибытия помощи"
 section: Заготовка и хранение
 urgency: important
-sos: false
+sos: true
 order: 2
 tags: [ботулизм, отравление консервами, вздутая банка, грибы в банках, вяленая рыба, бомбаж]
 related: [canning, drying-smoking, salting-fermenting, poisoning, mushrooms, cpr-adult]

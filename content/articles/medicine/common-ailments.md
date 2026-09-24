@@ -4,7 +4,7 @@ summary: Голова, спина, запор, изжога, геморрой, �
 section: Уход и хронические болезни
 urgency: normal
 sos: false
-order: 4
+order: 5
 tags: [головная боль, болит спина, запор, изжога, геморрой, мозоли, бессонница]
 related: [pain-management, danger-signs, medicinal-plants, sleep, body-hygiene, walking-long-distance]
 ---

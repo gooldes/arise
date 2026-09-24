@@ -11,7 +11,7 @@ quick:
   - "**Улучшение через 1–2 дня — ложное**: печень продолжает разрушаться, лечение обязательно"
 section: Добыча в природе
 urgency: important
-sos: false
+sos: true
 order: 3
 tags: [грибы, бледная поганка, отравление грибами, ложные опята, мухомор, тихая охота]
 related: [poisoning, poisonous-plants, salting-fermenting, drying-smoking, botulism, wild-edible-plants]

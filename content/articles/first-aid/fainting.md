@@ -10,7 +10,7 @@ quick:
   - "**Пить — только когда полностью пришёл в себя**"
 section: Другие неотложные состояния
 urgency: important
-sos: false
+sos: true
 order: 2
 tags: [обморок, потерял сознание, упал в обморок, головокружение, потемнело в глазах, слабость]
 related: [recovery-position, cpr-adult, hypoglycemia, heart-attack, dehydration, heat-stroke]

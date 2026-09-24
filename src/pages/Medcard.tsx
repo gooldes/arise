@@ -23,6 +23,7 @@ const BLOOD = ['', 'O(I) Rh+', 'O(I) Rh−', 'A(II) Rh+', 'A(II) Rh−', 'B(III)
 
 const round = (n: number, step: number) => Math.round(n / step) * step
 const fmt = (n: number) => n.toLocaleString('ru-RU', { maximumFractionDigits: 1 })
+const fmt2 = (n: number) => n.toLocaleString('ru-RU', { maximumFractionDigits: 2 })
 
 /** Расчёт доз — те же правила, что в статье «Дозирование лекарств» */
 function Doses({ weight, ageYears }: { weight: number; ageYears?: number }) {
@@ -40,8 +41,9 @@ function Doses({ weight, ageYears }: { weight: number; ageYears?: number }) {
       <div class="doses__row">
         <p class="doses__name">Парацетамол (жар, боль)</p>
         <p>
-          <b>{fmt(paraMg)} мг</b> на приём = <b>{fmt(round(paraMg / 24, 0.5))} мл</b> сиропа 120 мг/5 мл
-          {weight >= 20 && <> или {fmt(round(paraMg / 50, 0.5))} мл сиропа 250 мг/5 мл</>}
+          <b>{fmt(paraMg)} мг</b> на приём
+          {weight < 40 && <> = <b>{fmt(round(paraMg / 24, 0.5))} мл</b> сиропа 120 мг/5 мл</>}
+          {weight >= 20 && <> {weight < 40 ? 'или' : '='} {fmt(round(paraMg / 50, 0.5))} мл сиропа 250 мг/5 мл</>}
           {weight >= 33 && <> или {paraMg >= 1000 ? '2 таблетки' : paraMg >= 500 ? '1 таблетка' : '½ таблетки'} 500 мг</>}
         </p>
         <p class="doses__note">{paraMax}.</p>
@@ -74,8 +76,70 @@ function Doses({ weight, ageYears }: { weight: number; ageYears?: number }) {
         {perStool && <p>После каждого жидкого стула: {perStool}.</p>}
         <p class="doses__note">Рецепт: 1 л кипячёной воды + 6 ровных чайных ложек сахара + ½ ровной чайной ложки соли.</p>
       </div>
+      <div class="doses__row">
+        <p class="doses__name">Амоксициллин (пневмония, отит, ангина — см. «Антибиотики»)</p>
+        {(() => {
+          const stdMg = Math.min(round(25 * weight, 25), 1000)
+          const highMg = Math.min(round(45 * weight, 25), 1000)
+          return (
+            <>
+              <p>
+                Обычная доза 25 мг/кг 2 раза в день: <b>{fmt(stdMg)} мг</b> = <b>{fmt(round(stdMg / 50, 0.5))} мл</b> суспензии 250 мг/5 мл
+                {weight < 20 && <> ({fmt(round(stdMg / 25, 0.5))} мл суспензии 125 мг/5 мл)</>}
+              </p>
+              <p>
+                Высокая доза 45 мг/кг 2 раза в день (тяжёлая пневмония, отит): <b>{fmt(highMg)} мг</b> = <b>{fmt(round(highMg / 50, 0.5))} мл</b> суспензии 250 мг/5 мл
+              </p>
+              <p class="doses__note">Курс 5 дней (ангина 10). Не при аллергии на пенициллины. Порошок разводят кипячёной водой по метке на флаконе.</p>
+            </>
+          )
+        })()}
+      </div>
+      <div class="doses__row">
+        <p class="doses__name">Адреналин при анафилаксии (см. «Анафилаксия»)</p>
+        {(() => {
+          const ml = ageYears !== undefined && ageYears < 6 ? 0.15 : ageYears !== undefined && ageYears < 12 ? 0.3 : weight < 25 ? 0.15 : weight < 40 ? 0.3 : 0.5
+          const byWeight = Math.min(round(0.01 * weight, 0.01), ml)
+          const dose = Math.min(ml, Math.max(byWeight, 0.1))
+          return (
+            <>
+              <p>
+                Ампула 1 мг/мл (0,1 %), в мышцу бедра: <b>{fmt2(dose)} мл</b> = <b>{Math.round(dose * 100)} делений</b> инсулинового шприца U-100
+              </p>
+              <p>
+                Автоинъектор: <b>{dose >= 0.3 ? '0,3 мг' : '0,15 мг'}</b>. Нет улучшения через 5 минут — повторить.
+              </p>
+              <p class="doses__note">Только в мышцу, никогда в вену. Расчёт: 0,01 мл/кг, но не больше 0,15 мл до 6 лет, 0,3 мл в 6–12 лет, 0,5 мл старше 12.</p>
+            </>
+          )
+        })()}
+      </div>
+      <div class="doses__row">
+        <p class="doses__name">Диазепам при судорогах дольше 5 минут (в прямую кишку)</p>
+        <p>
+          <b>{fmt(Math.min(round(0.5 * weight, 1), 20))} мг</b> (0,5 мг/кг, не больше 20 мг){ageYears !== undefined && ageYears >= 18 && <> — взрослым 20 мг</>}
+        </p>
+        <p class="doses__note">Повторить один раз через 10 минут половиной дозы, если приступ продолжается. Не давать, если дыхание реже 10 в минуту. См. «Судороги».</p>
+      </div>
+      <div class="doses__row">
+        <p class="doses__name">Йодид калия при радиационной аварии (только по объявлению властей)</p>
+        <p>
+          {ageYears === undefined
+            ? 'Укажите возраст: доза зависит от него, а не от веса.'
+            : ageYears < 1 / 12
+              ? <><b>16 мг</b> = ⅛ таблетки 125–130 мг — растворить: таблетка + 20 мл воды + 20 мл молока/сока, дать 5 мл</>
+              : ageYears < 3
+                ? <><b>32 мг</b> = ¼ таблетки (10 мл раствора из таблетки в 40 мл жидкости)</>
+                : ageYears <= 12
+                  ? <><b>65 мг</b> = ½ таблетки</>
+                  : ageYears > 40
+                    ? <>Старше 40 лет обычно <b>не принимают</b> (только при объявленной очень высокой дозе — 1 таблетка)</>
+                    : <><b>130 мг</b> = 1 таблетка 125–130 мг</>}
+        </p>
+        <p class="doses__note">Один раз; повтор только по официальному указанию. Беременным и кормящим — 1 таблетка однократно в любом возрасте. Не йодная настойка и не «Йодомарин». См. «Йодная профилактика».</p>
+      </div>
       <p class="doses__warn">
-        Проверяйте по статье <a href={to.article('drug-dosing')}>«Дозирование лекарств»</a> и инструкции к препарату.
+        Проверяйте по статьям <a href={to.article('drug-dosing')}>«Дозирование лекарств»</a>, <a href={to.article('antibiotics')}>«Антибиотики»</a>, <a href={to.article('anaphylaxis')}>«Анафилаксия»</a>, <a href={to.article('seizures')}>«Судороги»</a>, <a href={to.article('potassium-iodide')}>«Йодная профилактика»</a> и инструкции к препарату.
         Жидкость отмеряйте шприцем. Детям до 3 месяцев с температурой — это <a href={to.article('child-illness')}>тревожный признак</a>.
       </p>
     </div>
